@@ -38,6 +38,7 @@ body {
 
 .main {
   background: white;
+  width: 60% !important;
 }
 
 .textblack {
