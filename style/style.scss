@@ -1,0 +1,73 @@
+$black: #222021;
+$grey: #777B7E;
+$abalonegrey: #D6CFC7;
+$menupadding: 12px;
+
+@import "./home.scss";
+
+@mixin standardtext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+@mixin titlelink {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.blackbar {
+    background: $black;
+    height: 4px;
+    width: 100%;
+}
+
+.steplogo {
+    max-width:100%;
+    max-height:100%;
+    padding: $menupadding;
+}
+
+.menulink {
+    a {
+        @include titlelink();
+        color: $black !important;
+        font-size: 18px !important;
+        padding: 6px;
+    }
+}
+
+.colmenuright {
+    height: 100%; 
+    padding: $menupadding !important;
+    padding-bottom: $menupadding !important;
+    padding-top: $menupadding !important;
+}
+
+.menurow {
+    margin-bottom: 0px;
+}
+
+
+.main {
+    background: white;
+}
+
+.textblack {
+    @include standardtext();
+}
+
+.textwhite {
+    @include standardtext();
+}
+
+.btnblack {
+    background: $black;
+    color: white;
+    &:hover {
+        background: $grey;
+    }
+}
