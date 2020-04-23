@@ -1,0 +1,51 @@
+$psize: 1.5em;
+$font: 'Montserrat', sans-serif;
+$titlefont: 'Montserrat Subrayada', sans-serif;
+
+
+@mixin standardtext($fontsize) {
+    text-align: center;
+    font-family: $font;
+    font-size: $fontsize;
+}
+
+@mixin titlelink {
+    font-family: $titlefont;
+}
+
+h1 {
+    @include standardtext(3em);
+    color: $black;
+    font-weight: bolder;
+    margin: 12px;
+}
+
+h3 {
+    @include standardtext(2em);
+    font-weight: lighter;
+    margin: 6px;
+}
+
+
+.textblack {
+    @include standardtext($psize);
+    color: $black;
+    background: white;
+}
+
+.textwhite {
+    @include standardtext($psize);
+    color: white; 
+    background: $black;
+    padding: 12px; 
+    width: 100%; 
+    margin-bottom: 12px;
+}
+
+.btnblack {
+    background: $black;
+    color: white;
+    &:hover {
+        background: $grey;
+    }
+}

@@ -2,73 +2,27 @@ $black: #222021;
 $grey: #777B7E;
 $abalonegrey: #D6CFC7;
 $menupadding: 12px;
+$boxwidth: 1500px;
 
+@import "./textandbuttons";
 @import "./home.scss";
-
-@mixin standardtext {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-}
-
-@mixin titlelink {
-    font-family: 'Montserrat Subrayada', sans-serif;
-}
+@import "./navbar.scss";
 
 body {
     background: white;
 }
 
-.blackbar {
-    background: $black;
-    height: 4px;
-    width: 100%;
+.containedrow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
-.steplogo {
-    max-width:100%;
-    max-height:100%;
-    padding: $menupadding;
-}
-
-.menulink {
-    a {
-        @include titlelink();
-        color: $black !important;
-        font-size: 18px !important;
-        padding: 6px;
-    }
-}
-
-.colmenuright {
-    height: 100%; 
-    padding: $menupadding !important;
-    padding-bottom: $menupadding !important;
-    padding-top: $menupadding !important;
-}
-
-.menurow {
+.navcols {
+    margin: 0px;
     margin-bottom: 0px;
 }
 
-
 .main {
     background: white;
-    width: 60% !important;
-}
-
-.textblack {
-    @include standardtext();
-}
-
-.textwhite {
-    @include standardtext();
-}
-
-.btnblack {
-    background: $black;
-    color: white;
-    &:hover {
-        background: $grey;
-    }
+    max-width: $boxwidth !important;
 }
