@@ -35,12 +35,54 @@ h3 {
 }
 
 .btnblack {
-  background: #222021;
-  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat Subrayada", sans-serif !important;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 42px;
+  background: #222021 !important;
+  color: white !important;
 }
 
 .btnblack:hover {
-  background: #777B7E;
+  background: #D6CFC7 !important;
+  color: #222021 !important;
+}
+
+.btnwhite {
+  text-transform: uppercase;
+  font-family: "Montserrat Subrayada", sans-serif !important;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 42px;
+  background: white !important;
+  color: #222021 !important;
+}
+
+.btnwhite:hover {
+  background: #D6CFC7 !important;
+}
+
+.btntransparent {
+  text-transform: uppercase;
+  font-family: "Montserrat Subrayada", sans-serif !important;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 42px;
+  color: #222021 !important;
+  background: transparent;
+  text-shadow: 2px 2px 2px #aaa;
+  padding: 12px !important;
+  display: inline-block;
+  vertical-align: center;
+  line-height: 36px;
+}
+
+.btntransparent:hover {
+  text-shadow: 0px !important;
 }
 
 body, html, main {
@@ -52,7 +94,7 @@ body, html, main {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("../img/hero.jpg");
   /* Set a specific height */
-  height: 600px;
+  height: 800px;
   width: 100%;
   padding: 12px;
   /* Position and center the image to scale nicely on all screens */
@@ -62,11 +104,17 @@ body, html, main {
   position: relative;
 }
 
+@media only screen and (max-width: 900px) {
+  .hero-image {
+    height: 500px;
+  }
+}
+
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 50%;
   padding: 12px;
   background-color: white;
@@ -74,9 +122,20 @@ body, html, main {
           transform: translate(-50%, -50%);
 }
 
+.hero-text a {
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-text {
+    top: 50%;
+  }
+}
+
 .hometext {
   margin-top: 0px !important;
   padding: 12px;
+  text-align: center;
 }
 
 .hometext p {
@@ -87,11 +146,26 @@ body, html, main {
   margin: 0 auto;
 }
 
+.hometext a {
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+
 .menulink a {
   font-family: "Montserrat Subrayada", sans-serif;
   color: #222021 !important;
   font-size: 2em !important;
   padding: 6px;
+}
+
+@media only screen and (max-width: 900px) {
+  .menulink {
+    text-align: center !important;
+  }
+  .menulink a {
+    font-size: 1.2em !important;
+    text-overflow: inherit !important;
+  }
 }
 
 .colmenuright {
@@ -107,9 +181,18 @@ body, html, main {
   margin-left: 0px  !important;
 }
 
+.menurow .tabs {
+  text-align: right !important;
+}
+
 .uppermenu {
   width: 100%;
   padding: 25 px;
+  text-align: right;
+}
+
+.uppermenu .btntransparent {
+  margin: auto;
 }
 
 .steplogo {
@@ -124,8 +207,25 @@ body, html, main {
   width: 100%;
 }
 
+.fbar1 {
+  background: #777B7E;
+  padding: 0px;
+}
+
+.fbar2 {
+  font-family: "Montserrat", sans-serif;
+  background: #222021 !important;
+  color: white;
+}
+
+html {
+  min-height: 100% !important;
+  cursor: url("/img/cursor.png"), auto !important;
+}
+
 body {
   background: white;
+  min-height: 100% !important;
 }
 
 .containedrow {
@@ -141,5 +241,6 @@ body {
 .main {
   background: white;
   max-width: 1500px !important;
+  margin-bottom: 128px;
 }
 /*# sourceMappingURL=style.css.map */

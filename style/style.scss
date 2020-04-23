@@ -3,14 +3,31 @@ $grey: #777B7E;
 $abalonegrey: #D6CFC7;
 $menupadding: 12px;
 $boxwidth: 1500px;
+$size: 3px;
+$red: red; 
 
 @import "./textandbuttons";
 @import "./home.scss";
 @import "./navbar.scss";
 
+html {
+    min-height: 100% !important;
+    cursor: url('/img/cursor.png'), auto !important;
+}
 body {
     background: white;
+    min-height: 100% !important;
 }
+
+// html, body {
+//     &,
+//     * {
+             
+//     }
+// }
+
+
+
 
 .containedrow {
     margin-left: 0px !important;
@@ -25,4 +42,5 @@ body {
 .main {
     background: white;
     max-width: $boxwidth !important;
+    margin-bottom: 128px;
 }

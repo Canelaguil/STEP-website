@@ -9,6 +9,15 @@ $titlefont: 'Montserrat Subrayada', sans-serif;
     font-size: $fontsize;
 }
 
+@mixin buttonbasics {
+    text-transform: uppercase;
+    font-family: $titlefont !important;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 42px;
+}
+
 @mixin titlelink {
     font-family: $titlefont;
 }
@@ -43,9 +52,34 @@ h3 {
 }
 
 .btnblack {
-    background: $black;
-    color: white;
+    @include buttonbasics();
+    background: $black !important;
+    color: white !important;
     &:hover {
-        background: $grey;
+        background: $abalonegrey !important;
+        color: $black !important;
+    }
+}
+
+.btnwhite {
+    @include buttonbasics();
+    background: white !important;
+    color: $black !important;
+    &:hover {
+        background: $abalonegrey !important;
+    }
+}
+
+.btntransparent {
+    @include buttonbasics();
+    color: $black !important;
+    background: transparent;
+    text-shadow:2px 2px 2px #aaa;
+    padding: 12px !important;
+    display: inline-block;
+    vertical-align: center;
+    line-height: 36px;
+    &:hover {
+        text-shadow: 0px !important;
     }
 }

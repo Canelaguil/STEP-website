@@ -1,1 +1,6 @@
-('.carousel.carousel-slider').carousel({fullWidth: true});
+console.log("lkjl");
+
+
+$(document).ready(function(){
+    $('#navbar').load('./modules/navbar.html');
+});

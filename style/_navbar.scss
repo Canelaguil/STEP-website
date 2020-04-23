@@ -1,10 +1,21 @@
 .menulink {
+    
     a {
         @include titlelink();
         color: $black !important;
         font-size: 2em !important;
-        padding: 6px;
+        padding: 6px; 
     }
+
+    @media only screen and (max-width: 900px) {
+        text-align: center !important;
+        a {
+            font-size: 1.2em !important;
+            text-overflow: inherit !important;
+        }
+        
+    }
+    
 }
 
 .colmenuright {
@@ -18,12 +29,21 @@
     margin-bottom: 0px;
     margin-right: 0px !important; 
     margin-left: 0px  !important;
+
+    .tabs {
+        text-align: right !important;
+    }
 }
 
 
 .uppermenu {
     width: 100%; 
     padding: 25 px;
+    text-align: right;
+
+    .btntransparent {
+        margin: auto;
+    }
 }
 
 .steplogo {
@@ -36,4 +56,15 @@
     background: $black;
     height: 4px;
     width: 100%;
+}
+
+.fbar1 {
+    background: $grey;
+    padding: 0px;
+}
+
+.fbar2 {
+    font-family: $font;
+    background: $black !important;
+    color: white; 
 }
