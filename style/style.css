@@ -171,12 +171,21 @@ body, html, main {
   padding: 12px !important;
   padding-bottom: 12px !important;
   padding-top: 12px !important;
+  float: right !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .colmenuright {
+    float: none !important;
+    text-align: center !important;
+  }
 }
 
 .menurow {
   margin-bottom: 0px;
   margin-right: 0px !important;
   margin-left: 0px  !important;
+  bottom: 0px !important;
 }
 
 .menurow .tabs {
@@ -213,6 +222,16 @@ body, html, main {
 .fbar1 {
   background: #777B7E;
   padding: 0px;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  text-align: center !important;
+}
+
+.fbar1 a {
+  text-align: center !important;
+  font-size: 1.2em !important;
+  margin: 0 auto;
 }
 
 .fbar2 {
@@ -244,6 +263,6 @@ body {
 .main {
   background: white;
   max-width: 1000px !important;
-  margin-bottom: 128px;
+  margin-bottom: 64px;
 }
 /*# sourceMappingURL=style.css.map */

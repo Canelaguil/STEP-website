@@ -23,12 +23,18 @@
     padding: $menupadding !important;
     padding-bottom: $menupadding !important;
     padding-top: $menupadding !important;
+    float: right !important; 
+    @media only screen and (max-width: 900px) {
+        float: none !important; 
+        text-align: center !important; 
+    }
 }
 
 .menurow {
     margin-bottom: 0px;
     margin-right: 0px !important; 
     margin-left: 0px  !important;
+    bottom: 0px !important; 
 
     .tabs {
         text-align: right !important;
@@ -65,6 +71,13 @@
 .fbar1 {
     background: $grey;
     padding: 0px;
+    align-items: center !important;
+    text-align: center !important;
+    a {
+        text-align: center !important;
+        font-size: 1.2em !important;
+        margin: 0 auto;
+    }
 }
 
 .fbar2 {
