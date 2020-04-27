@@ -71,7 +71,11 @@
     max-height:100%;
     padding: $menupadding;
     &:hover {
-        box-shadow: 2px 2px 2px #aaa;
+        // box-shadow: 2px 2px 2px #aaa;
+         -webkit-filter: drop-shadow(4px 4px 4px #aaa);
+        // filter: url(#drop-shadow);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     }
 }
 
