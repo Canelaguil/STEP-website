@@ -166,6 +166,15 @@ body, html, main {
   }
 }
 
+.lowermenu {
+  width: 100% !important;
+}
+
+.navcols {
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
 .colmenuright {
   height: 100%;
   padding: 12px !important;
@@ -253,11 +262,6 @@ body {
 .containedrow {
   margin-left: 0px !important;
   margin-right: 0px !important;
-}
-
-.navcols {
-  margin: 0px;
-  margin-bottom: 0px;
 }
 
 .main {
