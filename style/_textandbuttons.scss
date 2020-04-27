@@ -69,6 +69,15 @@ h3 {
     }
 }
 
+.btnred {
+    @include buttonbasics();
+    background: $red !important;
+    color: white !important;
+    &:hover {
+        background: $black !important;
+    }
+}
+
 .btnwhite {
     @include buttonbasics();
     background: white !important;
@@ -83,10 +92,10 @@ h3 {
     color: $black !important;
     background: transparent;
     text-shadow:2px 2px 2px #aaa;
-    // padding: 12px !important;
     display: inline-block;
     vertical-align: center;
-    // line-height: 36px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
     &:hover {
         text-shadow: none !important;
         background: transparent; 

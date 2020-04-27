@@ -58,6 +58,25 @@ h3 {
   color: #222021 !important;
 }
 
+.btnred {
+  text-transform: uppercase;
+  font-family: "Montserrat Subrayada", sans-serif !important;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 42px;
+  background: #990000ff !important;
+  color: white !important;
+}
+
+.btnred:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+.btnred:hover {
+  background: #222021 !important;
+}
+
 .btnwhite {
   text-transform: uppercase;
   font-family: "Montserrat Subrayada", sans-serif !important;
@@ -89,6 +108,8 @@ h3 {
   text-shadow: 2px 2px 2px #aaa;
   display: inline-block;
   vertical-align: center;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .btntransparent:hover {
