@@ -5,6 +5,9 @@
         color: $black !important;
         font-size: 2em !important;
         padding: 6px; 
+        &:hover {
+            text-shadow: 2px 2px 2px #aaa;
+        }
     }
 
     @media only screen and (max-width: 900px) {
@@ -13,9 +16,7 @@
             font-size: 1.2em !important;
             text-overflow: inherit !important;
         }
-        
     }
-    
 }
 
 .lowermenu {
@@ -69,6 +70,9 @@
     max-width:100%;
     max-height:100%;
     padding: $menupadding;
+    &:hover {
+        box-shadow: 2px 2px 2px #aaa;
+    }
 }
 
 .blackbar {
@@ -78,19 +82,54 @@
 }
 
 .fbar1 {
-    background: $grey;
+    background: $black;
     padding: 0px;
     align-items: center !important;
-    text-align: center !important;
-    a {
-        text-align: center !important;
-        font-size: 1.2em !important;
-        margin: 0 auto;
+    text-align: left !important;
+    p {
+        font-size: 0.8em;
     }
+    // a {
+    //     text-align: center !important;
+    //     font-size: 1.2em !important;
+    //     margin: 0 auto;
+    // }
 }
 
 .fbar2 {
     font-family: $font;
-    background: $black !important;
+    background: black !important;
     color: white; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fbtext {
+    color: white;
+    font-family: $font;
+    max-width: $boxwidth !important;
+    margin: 0 auto !important;
+
+    h5 {
+        font-weight: bolder;
+    }
+
+    ul {
+        text-align: right;
+        text-shadow: 1px 1px 1px #aaa;
+        font-size: 1em !important;
+        li {
+            &:hover {
+                text-shadow: none;
+            }
+        }
+        @media only screen and (max-width: 900px) {
+            text-align: center !important;
+            margin: 0 auto !important;
+        }
+    }
+}
+
+.links {
+    margin-left: none !important ;
 }

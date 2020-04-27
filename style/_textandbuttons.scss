@@ -16,8 +16,16 @@ $titlefont: 'Montserrat Subrayada', sans-serif;
     padding-top: 5px;
     padding-bottom: 10px;
     height: 42px;
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
 }
 
+a {
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
+}
 @mixin titlelink {
     font-family: $titlefont;
 }
@@ -80,6 +88,7 @@ h3 {
     vertical-align: center;
     // line-height: 36px;
     &:hover {
-        text-shadow: 0px !important;
+        text-shadow: none !important;
+        background: transparent; 
     }
 }

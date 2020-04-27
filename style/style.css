@@ -1,3 +1,7 @@
+a:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
 h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -46,6 +50,10 @@ h3 {
 }
 
 .btnblack:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+.btnblack:hover {
   background: #D6CFC7 !important;
   color: #222021 !important;
 }
@@ -59,6 +67,10 @@ h3 {
   height: 42px;
   background: white !important;
   color: #222021 !important;
+}
+
+.btnwhite:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
 }
 
 .btnwhite:hover {
@@ -80,7 +92,12 @@ h3 {
 }
 
 .btntransparent:hover {
-  text-shadow: 0px !important;
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+.btntransparent:hover {
+  text-shadow: none !important;
+  background: transparent;
 }
 
 body, html, main {
@@ -156,6 +173,10 @@ body, html, main {
   padding: 6px;
 }
 
+.menulink a:hover {
+  text-shadow: 2px 2px 2px #aaa;
+}
+
 @media only screen and (max-width: 900px) {
   .menulink {
     text-align: center !important;
@@ -222,6 +243,11 @@ body, html, main {
   padding: 12px;
 }
 
+.steplogo:hover {
+  -webkit-box-shadow: 2px 2px 2px #aaa;
+          box-shadow: 2px 2px 2px #aaa;
+}
+
 .blackbar {
   background: #222021;
   height: 4px;
@@ -229,29 +255,61 @@ body, html, main {
 }
 
 .fbar1 {
-  background: #777B7E;
+  background: #222021;
   padding: 0px;
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
-  text-align: center !important;
+  text-align: left !important;
 }
 
-.fbar1 a {
-  text-align: center !important;
-  font-size: 1.2em !important;
-  margin: 0 auto;
+.fbar1 p {
+  font-size: 0.8em;
 }
 
 .fbar2 {
   font-family: "Montserrat", sans-serif;
-  background: #222021 !important;
+  background: black !important;
   color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fbtext {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+}
+
+.fbtext h5 {
+  font-weight: bolder;
+}
+
+.fbtext ul {
+  text-align: right;
+  text-shadow: 1px 1px 1px #aaa;
+  font-size: 1em !important;
+}
+
+.fbtext ul li:hover {
+  text-shadow: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .fbtext ul {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+}
+
+.links {
+  margin-left: none !important;
 }
 
 html {
   min-height: 100% !important;
-  cursor: url("/img/cursor.png"), auto !important;
+  cursor: url("../img/cursor22.png"), auto !important;
 }
 
 body {
