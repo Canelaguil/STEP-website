@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang='nl'>
 
@@ -35,9 +39,9 @@
                         <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a href="index.php?mypage=muziek">Muziek</a></li>
-                                <li class="tab menulink"><a class="" href="index.php?mypage=mensen">Mensen</a></li>
-                                <li class="menulink tab"><a href="index.php?mypage=meedoen">Meedoen</a></li>
+                                <li class="tab menulink"><a href="/?mypage=mensen">Muziek</a></li>
+                                <li class="tab menulink"><a href="./index.php?mypage=mensen">Mensen</a></li>
+                                <li class="menulink tab" href="http://localhost:8000/?mypage=mensen"><a href="http://localhost:8000/?mypage=mensen">Meedoen</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,24 +50,46 @@
         </div>
 
         <?php
-        $mypage = "home";
-
-        if (isset($_GET['mypage'])) {
-            $mypage = $_GET['mypage'];
+        if(isset($_GET['mypage']) && $_GET['mypage'] != '' ){    
+            $mypage = $_GET['mypage']; // page being requested
+        }else{
+            $mypage = 'home'; // default page
         }
         
         switch ($mypage) {
+
+            /* MAIN MENUS */
             case "home":
                 @include("pages/home.php");
             break;
             
             case "mensen":
-                @include("pages/mensen/mensen.php");
+                @include("pages/mensen.php");
             break;
 
-            default:
-                @include("pages/home.php");
+            case "meedoen":
+                @include("pages/meedoen.php");
             break;
+
+            case "muziek":
+                @include("pages/muziek.php");
+            break;
+
+            /* SECONDARY PAGES */
+
+            // case "meedoen":
+            //     @include("pages/meedoen.php");
+            // break;
+
+            // case "muziek":
+            //     @include("pages/muziek.php");
+            // break;
+
+            /* DEFAULT */
+
+            // default:
+            //     @include("pages/home.php");
+            // break;
         }
 
         ?>

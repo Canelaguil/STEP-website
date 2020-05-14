@@ -1,0 +1,48 @@
+.card-image {
+    img {
+        max-height: 300px;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        position: relative !important;
+    }
+}
+
+.mensentitle {
+    
+    h2 {
+        padding: 4px;
+        padding-left: 16px;
+        font-family: $titlefont;
+        text-align: left !important; 
+    }
+}
+
+.blackbox {
+    background-color: $black;
+    padding: 12px !important; 
+    width: 100%; 
+}
+
+.mensenlinks {
+    ul {
+        text-shadow: 1px 1px 1px #aaa;
+        li {
+            &:hover {
+                text-shadow: none;
+            }
+        }
+    }
+}
+
+.cardfunctie {
+    font-family: $font;
+    font-weight: lighter;
+     p {
+            color: $black;
+            font-weight: bold;
+         i {
+             vertical-align: middle !important;
+         }
+     }
+}

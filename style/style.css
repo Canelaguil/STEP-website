@@ -33,7 +33,6 @@ h3 {
   font-size: 1.5em;
   color: white;
   background: #222021;
-  padding: 12px;
   width: 100%;
   margin-bottom: 12px;
 }
@@ -327,6 +326,49 @@ body, html, main {
 
 .links {
   margin-left: none !important;
+}
+
+.card-image img {
+  max-height: 300px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+}
+
+.mensentitle h2 {
+  padding: 4px;
+  padding-left: 16px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-align: left !important;
+}
+
+.blackbox {
+  background-color: #222021;
+  padding: 12px !important;
+  width: 100%;
+}
+
+.mensenlinks ul {
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+.mensenlinks ul li:hover {
+  text-shadow: none;
+}
+
+.cardfunctie {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.cardfunctie p {
+  color: #222021;
+  font-weight: bold;
+}
+
+.cardfunctie p i {
+  vertical-align: middle !important;
 }
 
 html {
