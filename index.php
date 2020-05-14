@@ -39,8 +39,8 @@ session_start();
                         <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a href="/?mypage=mensen">Muziek</a></li>
-                                <li class="tab menulink"><a href="./index.php?mypage=mensen">Mensen</a></li>
+                                <li class="tab menulink"><a href="index.php?mypage=home">Muziek</a></li>
+                                <li class="tab menulink"><a href="index.php?mypage=mensen">Mensen</a></li>
                                 <li class="menulink tab" href="http://localhost:8000/?mypage=mensen"><a href="http://localhost:8000/?mypage=mensen">Meedoen</a></li>
                             </ul>
                         </div>
@@ -129,7 +129,6 @@ session_start();
             </div>
         </div>
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
