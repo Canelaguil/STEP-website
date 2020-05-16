@@ -10,6 +10,7 @@ $size: 3px;
 @import "./home.scss";
 @import "./navbar.scss";
 @import "./mensen.scss";
+@import "./muziek.scss";
 
 html {
     min-height: 100% !important;
@@ -19,6 +20,31 @@ html {
 body {
     background: white;
     min-height: 100% !important;
+}
+
+img {
+    cursor: url('../img/cursor22.png'), auto !important;
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
+}
+
+a {
+    cursor: url('../img/cursor22.png'), auto !important;
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
+
+    .disbled {
+        color: grey !important; 
+    }
+}
+
+span {
+    cursor: url('../img/cursor22.png'), auto !important;
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
 }
 
 .containedrow {

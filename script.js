@@ -2,5 +2,7 @@ console.log("lkjl");
 
 
 $(document).ready(function(){
-    $('#navbar').load('./modules/navbar.html');
+    $('.parallax').parallax();
+    $('.modal').modal();
+    $('.collapsible').collapsible();
 });

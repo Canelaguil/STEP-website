@@ -120,6 +120,13 @@ h3 {
   background: transparent;
 }
 
+.warning {
+  background-color: #990000ff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
 body, html, main {
   height: 100%;
 }
@@ -253,6 +260,11 @@ body, html, main {
   font-size: 1.2em !important;
 }
 
+.uppermenu .btntransparent:focus {
+  background-color: #990000ff !important;
+  color: white !important;
+}
+
 .uppermenu .btn {
   font-size: 1.2em !important;
 }
@@ -326,6 +338,33 @@ body, html, main {
 
 .links {
   margin-left: none !important;
+}
+
+#nieuwsbrief {
+  max-width: 750px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+#nieuwsbrief h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 8px 0;
+  font-weight: bolder;
+}
+
+#nieuwsbrief p {
+  font-size: 1.2em;
+}
+
+#nieuwsbrief a {
+  color: #990000ff;
+}
+
+#nieuwsbrief a .disabled {
+  color: #777B7E !important;
+}
+
+#nieuwsbrief .modal {
+  max-height: 400px;
 }
 
 .cardimage {
@@ -443,6 +482,57 @@ body, html, main {
   vertical-align: middle !important;
 }
 
+.parallax-container {
+  z-index: 50 !important;
+  height: 200px;
+}
+
+.parallax-container .card-title {
+  background-color: #222021;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 2.3em;
+  position: absolute;
+  top: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 900px) {
+  .parallax-container .card-title {
+    top: 50%;
+  }
+}
+
+.parallax {
+  margin: 0 auto !important;
+}
+
+.parallax img {
+  max-width: 500px !important;
+}
+
+.mainmuziek .card-content {
+  z-index: 75;
+}
+
+.textmuziek {
+  text-align: left !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em !important;
+}
+
+.textmuziek .warning {
+  font-size: 1.4em !important;
+  margin-bottom: 6px !important;
+}
+
+.textmuziek .kopjemuziek {
+  font-weight: bold;
+  margin-top: 6px;
+}
+
 html {
   min-height: 100% !important;
   cursor: url("../img/cursor22.png"), auto !important;
@@ -451,6 +541,34 @@ html {
 body {
   background: white;
   min-height: 100% !important;
+}
+
+img {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+img:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+a {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+a:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+a .disbled {
+  color: grey !important;
+}
+
+span {
+  cursor: url("../img/cursor22.png"), auto !important;
+}
+
+span:hover {
+  cursor: url("../img/cursor22.png"), auto !important;
 }
 
 .containedrow {

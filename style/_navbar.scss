@@ -8,6 +8,7 @@
         &:hover {
             text-shadow: 2px 2px 2px #aaa;
         }
+        
     }
 
     @media only screen and (max-width: 900px) {
@@ -59,6 +60,10 @@
     .btntransparent {
         margin: auto;
         font-size: 1.2em !important;
+        &:focus {
+            background-color: $red !important;
+            color: white !important; 
+        }
     }
 
     .btn {
@@ -136,4 +141,28 @@
 
 .links {
     margin-left: none !important ;
+}
+
+#nieuwsbrief {
+    max-width: $boxwidth - 1/4 * $boxwidth !important; 
+    font-family: $font;
+    h4 {
+        font-family: $font;
+        margin: 8px 0; 
+        font-weight: bolder; 
+    }
+    p {
+        font-size: 1.2em; 
+    }
+
+    a {
+        color: $red ;
+        .disabled {
+            color: $grey !important; 
+        }
+    }
+
+    .modal {
+        max-height: 400px;
+    }
 }

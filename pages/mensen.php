@@ -35,21 +35,20 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/nona.jpg">
+                <img class="activator" src="../img/mensen/tessa.jpg">
             </div>
             <div class="card-content cardfunctie">
-                <span class="card-title activator">Nona Kranen</span>
-                <p class="activator">Secretaris<i class="material-icons">chevron_right</i></p>
+                <span class="card-title activator">Tessa Heeroma</span>
+                <p class="activator">Penningmeester<i class="material-icons">chevron_right</i></p>
             </div>
             <div class="card-reveal cardtextact">
-                <span class="card-title grey-text text-darken-4">Wouter Booij<i class="material-icons right">close</i></span>
-                <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Zijn taak binnen STEP zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten STEP.</p>
+                <span class="card-title grey-text text-darken-4">Tessa Heeroma<i class="material-icons right">close</i></span>
+                <p>Tessa Heeroma (1996) studeerde klassieke talen en Arabisch aan de UvA. Vanaf jonge leeftijd heeft ze viool (en later altviool) gespeeld in verschillende amateurorkesten en -ensembles. Ze heeft een brede muzieksmaak en houdt ervan om nieuwe muzikale ervaringen op te doen. Zo is ze recentelijk begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Als penningmeester bij STEP vindt Tessa het bijzonder om bij te dragen aan een organisatie die minder bekende muziek naar voren brengt.</p>
                 <div class="card-action">
                     <a href="#">Email</a>
                     <a href="#">Linkedin</a>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -77,11 +76,11 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/tessa.jpg">
+                <img class="activator" src="../img/mensen/zita.jpg">
             </div>
             <div class="card-content cardfunctie">
-                <span class="card-title activator">Tessa Heeroma</span>
-                <p class="activator">Penningmeester<i class="material-icons">chevron_right</i></p>
+                <span class="card-title activator">Zita Verbeeck</span>
+                <p class="activator">Orkestchef<i class="material-icons">chevron_right</i></p>
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Tessa Heeroma<i class="material-icons right">close</i></span>
@@ -97,20 +96,21 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/zita.jpg">
+                <img class="activator" src="../img/mensen/nona.jpg">
             </div>
             <div class="card-content cardfunctie">
-                <span class="card-title activator">Zita Verbeeck</span>
-                <p class="activator">Orkestchef<i class="material-icons">chevron_right</i></p>
+                <span class="card-title activator">Nona Kranen</span>
+                <p class="activator">Secretaris<i class="material-icons">chevron_right</i></p>
             </div>
             <div class="card-reveal cardtextact">
-                <span class="card-title grey-text text-darken-4">Tessa Heeroma<i class="material-icons right">close</i></span>
-                <p>Tessa Heeroma (1996) studeerde klassieke talen en Arabisch aan de UvA. Vanaf jonge leeftijd heeft ze viool (en later altviool) gespeeld in verschillende amateurorkesten en -ensembles. Ze heeft een brede muzieksmaak en houdt ervan om nieuwe muzikale ervaringen op te doen. Zo is ze recentelijk begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Als penningmeester bij STEP vindt Tessa het bijzonder om bij te dragen aan een organisatie die minder bekende muziek naar voren brengt.</p>
+                <span class="card-title grey-text text-darken-4">Wouter Booij<i class="material-icons right">close</i></span>
+                <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Zijn taak binnen STEP zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten STEP.</p>
                 <div class="card-action">
                     <a href="#">Email</a>
                     <a href="#">Linkedin</a>
                 </div>
             </div>
+
         </div>
     </div>
 

@@ -1,4 +1,4 @@
-<div class="row z-depth-3 containedrow">
+<div class="row z-depth-3 containedrow ">
     <div class="hero-image ">
         <div class="hero-text z-depth-2">
             <h1>Dvořák, Venema en Ravel</h1>

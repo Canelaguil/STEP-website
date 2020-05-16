@@ -100,3 +100,10 @@ h3 {
         background: transparent; 
     }
 }
+
+.warning {
+    background-color: $red;
+    color: white; 
+    font-family: $font;
+    font-weight: bolder; 
+}
