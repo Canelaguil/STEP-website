@@ -7,7 +7,7 @@
       </div>
       <div class="card-content">
         <p class="textmuziek">
-          <span class="warning">Dit concert is gecancelled i.v.m. de corona crisis.</span><br>
+          <span class="warning">Dit concert is gecancelled i.v.m. de coronacrisis.</span><br>
         </p>
         <div class="row">
           <div class="col s12 m6">
