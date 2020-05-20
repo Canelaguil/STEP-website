@@ -134,7 +134,7 @@ session_start();
                                         Stichting Ensemble Project (STEP) is in 2019 opgericht met het doel studenten en jonge
                                         proffesionals de mogelijkheid te geven orkestwerk te spelen voor kleine, unieke bezettingen.
                                         STEP richt zich hierbij bijzonder op werken van moderne componisten. Momenteel is Philip
-                                        Venema STEP's huiscomponist en staat STEP onder leiding van Sjoerd Haver.
+                                        Venema STEP's huiscomponist en staat STEP onder muzikale leiding van Sjoerd Haver.
                                     </p>
                                 </div>
                                 <div class="col l1">
