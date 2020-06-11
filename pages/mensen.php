@@ -22,7 +22,12 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Wouter Booij<i class="material-icons right">close</i></span>
-                <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Zijn taak binnen STEP zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten STEP.</p>
+                <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 
+                    2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is 
+                    Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Zijn taak binnen STEP 
+                    zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen
+                    bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten 
+                    STEP.</p>
                 <div class="card-action">
                     <a href="#">Email</a>
                     <a href="#">Linkedin</a>
@@ -130,7 +135,7 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Clara Martens Avila<i class="material-icons right">close</i></span>
-                <p>Clara is 22 jaar oud en is een geboren Amsterdammer met een hart voor 010. Op haar achtste begon ze met vioollessen, die ze op haar twaalfde verwisselde voor een altviool. Ze heeft jaren bij het Noordhollands Jeugdorkest gezeten en meegespeeld met orkesten als het VU-orkest, Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. Clara studeert informatica en heeft vanuit haar functie als promotiecommissaris de website gemaakt. Je kunt haar altijd bereiken voor suggesties daarover en voor promotiesamenwerkingen!</p>
+                <p>Clara (1997) en is een geboren Amsterdammer met een hart voor 010. Op haar achtste begon ze met vioollessen, die ze op haar twaalfde verwisselde voor een altviool. Ze heeft jaren bij het Noordhollands Jeugdorkest gezeten en meegespeeld met orkesten als het VU-orkest, Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. Clara studeert informatica en heeft vanuit haar functie als promotiecommissaris de website gemaakt. Je kunt haar altijd bereiken voor suggesties daarover en voor promotiesamenwerkingen!</p>
                 <div class="card-action">
                     <a href="#">Email</a>
                     <a href="#">Linkedin</a>
