@@ -143,9 +143,9 @@ session_start();
                                 <div class="col l3 s12 links">
                                     <ul>
                                         <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="#!">Doneer</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                                         <li><a class="grey-text text-lighten-3" href="#!">Nieuwsbrief</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="http://localhost:8000/?mypage=mensen#dircomp">Huiscomponist</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="#!">Doneer</a></li>
                                         <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
                                     </ul>
                                 </div>

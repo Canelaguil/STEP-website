@@ -193,6 +193,10 @@ body, html, main {
   margin-bottom: 64px;
 }
 
+.hometext span {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .menulink a {
   font-family: "Montserrat Subrayada", sans-serif;
   color: #222021 !important;
@@ -202,6 +206,10 @@ body, html, main {
 
 .menulink a:hover {
   text-shadow: 2px 2px 2px #aaa;
+}
+
+.menulink a .active {
+  text-shadow: 2px 2px 2px #990000ff;
 }
 
 @media only screen and (max-width: 900px) {
@@ -494,7 +502,9 @@ body, html, main {
   font-weight: bolder;
   font-size: 2.3em;
   position: absolute;
-  top: 80%;
+  top: 60%;
+  left: 50%;
+  text-align: center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -511,6 +521,19 @@ body, html, main {
 
 .parallax img {
   max-width: 500px !important;
+}
+
+.muziekcol {
+  margin-top: 6px !important;
+}
+
+.muziekknoppen {
+  text-align: right;
+}
+
+.muziekknoppen #koop {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .mainmuziek .card-content {
@@ -531,6 +554,10 @@ body, html, main {
 .textmuziek .kopjemuziek {
   font-weight: bold;
   margin-top: 6px;
+}
+
+.collapsible-body {
+  padding: 6px;
 }
 
 html {
