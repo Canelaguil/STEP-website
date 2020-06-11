@@ -24,7 +24,7 @@
                 <span class="card-title grey-text text-darken-4">Wouter Booij<i class="material-icons right">close</i></span>
                 <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 
                     2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is 
-                    Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Zijn taak binnen STEP 
+                    Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Momenteel is hij zijn master aan de VU aan het afronden. Zijn taak binnen STEP 
                     zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen
                     bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten 
                     STEP.</p>
