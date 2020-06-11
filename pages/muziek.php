@@ -6,40 +6,29 @@
        <span>Er wordt nu druk aan STEP 3 gewerkt!</span>
        </div>
       </div>
-   </li>
-   <li class="active">
-     <div class="collapsible-header active"><i class="material-icons">blur_on</i>Step 2</div>
-     <div class="collapsible-body">
-       <div id="concert1" class="row">
-         <div class="col s12 m12">
-           <div class="card mainmuziek">
-             <div class="parallax-container">
-               <div class="parallax"><img src="../img/step3.jpg"></div>
-               <span class="card-title">Dvořák, Venema<br>en Ravel</span>
-             </div>
-             <div class="card-content">
-               <p class="textmuziek">
-                 <span class="warning">Dit concert is gecancelled i.v.m. de corona crisis.</span><br>
-               </p>
-               <div class="row">
-                 <div class="col muziekcol s12 m6">
-                   <p class="textmuziek">
-                     <span class="kopjemuziek">
-                       Wat <br>
-                     </span>
-                     Blazersserenade, Dvořák<br>
-                     Verrassingsstuk, Venema<br>
-                     La Vallée des Cloches, Ravel<br>
-                     <span class="kopjemuziek">
-                       Waar <br>
-                     </span>
-                     Amstelkerk <br>
-                     <span class="kopjemuziek">
-                       Wanneer <br>
-                     </span>
-                     Zondag 11 april 2020 <br>
-                   </p>
-                 </div>
+      <div class="card-content">
+        <p class="textmuziek">
+          <span class="warning">Dit concert is gecancelled i.v.m. de coronacrisis.</span><br>
+        </p>
+        <div class="row">
+          <div class="col s12 m6">
+            <p class="textmuziek">
+              <span class="kopjemuziek">
+                Wat <br>
+              </span>
+              Blazersserenade, Dvořák<br>
+              Verrassingsstuk, Venema<br>
+              La Vallée des Cloches, Ravel<br>
+              <span class="kopjemuziek">
+                Waar <br>
+              </span>
+              Amstelkerk <br>
+              <span class="kopjemuziek">
+                Wanneer <br>
+              </span>
+              Zondag 11 april 2020 <br>
+            </p>
+          </div>
 
                  <div class="col muziekcol s12 m6">
                    <p class="textmuziek">
@@ -95,14 +84,21 @@
                    </p>
                  </div>
 
-               </div>
-             </div>
-             <div class="card-action muziekknoppen">
-              <a  class="" target="_blank" href="https://www.facebook.com/events/772463026466277/">Facebook</a>
-               <a id="koop" target="_blank" class="" href="https://www.youtube.com/watch?v=FcV-faPgEGo">Opname</a>
-             </div>
-           </div>
-         </div>
-       </div>
-   </li>
- </ul>
+                </div>
+              </div>
+              <div class="card-action">
+                <a class="disabled" href="#">Koop tickets</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
