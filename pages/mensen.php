@@ -204,5 +204,10 @@
 </div>
 
 <div class="row hometext mensentitle" id="aanbeveling">
-    **to be announced**
+    <ul>
+        <li>Bas Pollard</li>
+        <li>Herman Draaisma</li>
+        <li>Nick Devons</li>
+        <li>Johan Adriaenssen</li>
+    </ul>
 </div>

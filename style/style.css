@@ -560,6 +560,29 @@ body, html, main {
   padding: 6px;
 }
 
+.meedoenblock h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.6em;
+  font-weight: bolder;
+}
+
+.meedoenblock p {
+  text-align: left !important;
+}
+
+.meedoenblock p a {
+  color: #990000ff;
+}
+
+.meedoenblock p a .disabled {
+  color: #777B7E !important;
+}
+
+.lastblock {
+  padding-bottom: 60px;
+}
+
 html {
   min-height: 100% !important;
   cursor: url("../img/cursor22.png"), auto !important;

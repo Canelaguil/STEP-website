@@ -30,7 +30,7 @@ session_start();
                 <div class="col s12 m12 l8 colmenuright">
                     <div class="row uppermenu hide-on-med-and-down">
                         <a target="_self" class='btn btntransparent modal-trigger' href="#nieuwsbrief">Nieuwsbrief</a>
-                        <a class='waves-effect waves-light btn btnblack'>Doneer</a>
+                        <a class='waves-effect waves-light btn btnblack' href="/?mypage=doneer"">Doneer</a>
                     </div>
                     <div class="row hide-on-med-and-downpaddingrow">
 
@@ -145,7 +145,7 @@ session_start();
                                         <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
                                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                                         <li><a class="grey-text text-lighten-3" href="#!">Nieuwsbrief</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="#!">Doneer</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="/?mypage=doneer">Doneer</a></li>
                                         <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
                                     </ul>
                                 </div>
