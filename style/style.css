@@ -375,6 +375,10 @@ body, html, main {
   max-height: 400px;
 }
 
+#email {
+  border-bottom: #990000ff;
+}
+
 .cardimage {
   height: 300px;
   overflow: hidden !important;

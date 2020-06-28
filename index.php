@@ -48,37 +48,6 @@ session_start();
             </div>
         </div>
 
-        <div id="nieuwsbrief" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <h4>Aanmelden nieuwsbrief</h4>
-                <p>
-                    Op dit moment is het nog niet mogelijk je via de website in te schrijven voor onze nieuwsbrief. Stuur een email naar <a href="mailto:promotie@ensembleproject.nl">promotie@ensembleproject.nl</a> om je op te geven!.
-                </p>
-                <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
-                            </label>
-                            </p>
-                        </div>
-                    </form> 
-                 </div> 
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sluit</a>
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat disabled">Verstuur</a>
-            </div>
-        </div>
-
                         <?php
                         if (isset($_GET['mypage']) && $_GET['mypage'] != '') {
                             $mypage = $_GET['mypage']; // page being requested
@@ -142,9 +111,9 @@ session_start();
                                 </div>
                                 <div class="col l3 s12 links">
                                     <ul>
-                                        <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                                        <li><a class="grey-text text-lighten-3" href="/?mypage=mensen">Contact</a></li>
                                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="#!">Nieuwsbrief</a></li>
+                                        <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
                                         <li><a class="grey-text text-lighten-3" href="/?mypage=doneer">Doneer</a></li>
                                         <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
                                     </ul>
@@ -159,5 +128,37 @@ session_start();
                     </footer>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
+
+
+<div id="nieuwsbrief" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Aanmelden nieuwsbrief</h4>
+                <p>
+                    Op dit moment is het nog niet mogelijk je via de website in te schrijven voor onze nieuwsbrief. Stuur een email naar <a href="mailto:promotie@ensembleproject.nl">promotie@ensembleproject.nl</a> om je op te geven!.
+                </p>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
+                            </label>
+                            </p>
+                        </div>
+                    </form> 
+                 </div> 
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sluit</a>
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat disabled">Verstuur</a>
+            </div>
+        </div>
 
 </html>
