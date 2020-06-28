@@ -490,6 +490,15 @@ body, html, main {
   vertical-align: middle !important;
 }
 
+.aanbevelinglijst {
+  margin-bottom: 60px;
+}
+
+.aanbevelinglijst li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
 .parallax-container {
   z-index: 50 !important;
   height: 200px;
@@ -581,6 +590,11 @@ body, html, main {
 
 .lastblock {
   padding-bottom: 60px;
+}
+
+.doneerblok {
+  padding-top: 36px;
+  margin-bottom: 34vh !important;
 }
 
 html {

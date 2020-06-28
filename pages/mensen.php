@@ -204,7 +204,7 @@
 </div>
 
 <div class="row hometext mensentitle" id="aanbeveling">
-    <ul>
+    <ul class="aanbevelinglijst">
         <li>Bas Pollard</li>
         <li>Herman Draaisma</li>
         <li>Nick Devons</li>
