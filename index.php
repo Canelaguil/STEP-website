@@ -48,85 +48,86 @@ session_start();
             </div>
         </div>
 
-                        <?php
-                        if (isset($_GET['mypage']) && $_GET['mypage'] != '') {
-                            $mypage = $_GET['mypage']; // page being requested
-                        } else {
-                            $mypage = 'home'; // default page
-                        }
+        <?php
+        if (isset($_GET['mypage']) && $_GET['mypage'] != '') {
+            $mypage = $_GET['mypage']; // page being requested
+        } else {
+            $mypage = 'home'; // default page
+        }
 
-                        switch ($mypage) {
+        switch ($mypage) {
 
-                                /* MAIN MENUS */
-                            case "home":
-                                @include("pages/home.php");
-                                break;
+                /* MAIN MENUS */
+            case "home":
+                @include("pages/home.php");
+                break;
 
-                            case "mensen":
-                                @include("pages/mensen.php");
-                                break;
+            case "mensen":
+                @include("pages/mensen.php");
+                break;
 
-                            case "meedoen":
-                                @include("pages/meedoen.php");
-                                break;
+            case "meedoen":
+                @include("pages/meedoen.php");
+                break;
 
-                            case "muziek":
-                                @include("pages/muziek.php");
-                                break;
+            case "muziek":
+                @include("pages/muziek.php");
+                break;
 
-                                /* SECONDARY PAGES */
+                /* SECONDARY PAGES */
 
-                            case "doneer":
-                                @include("pages/doneer.php");
-                                break;
+            case "doneer":
+                @include("pages/doneer.php");
+                break;
 
-                                /* DEFAULT */
+                /* DEFAULT */
 
-                                // default:
-                                //     @include("pages/home.php");
-                                // break;
-                        }
+                // default:
+                //     @include("pages/home.php");
+                // break;
+        }
 
-                        ?>
+        ?>
+    
+    <div class="blackbar"></div>
+
+    </div>
 
 
-                    </div>
 
+    <footer class="page-footer fbar1 ">
+        <div class="container">
+            <div class="row fbtext">
+                <div class="col l8 s12">
+                    <h5 class="white-text">Over STEP</h5>
+                    <p class="grey-text text-lighten-4">
+                        Stichting Ensemble Project (STEP) is in 2019 opgericht met het doel studenten en jonge
+                        proffesionals de mogelijkheid te geven orkestwerk te spelen voor kleine, unieke bezettingen.
+                        STEP richt zich hierbij bijzonder op werken van moderne componisten. Momenteel is Philip
+                        Venema STEP's huiscomponist en staat STEP onder muzikale leiding van Sjoerd Haver.
+                    </p>
+                </div>
+                <div class="col l1">
 
-
-                    <footer class="page-footer fbar1 ">
-                        <div class="container">
-                            <div class="row fbtext">
-                                <div class="col l8 s12">
-                                    <h5 class="white-text">Over STEP</h5>
-                                    <p class="grey-text text-lighten-4">
-                                        Stichting Ensemble Project (STEP) is in 2019 opgericht met het doel studenten en jonge
-                                        proffesionals de mogelijkheid te geven orkestwerk te spelen voor kleine, unieke bezettingen.
-                                        STEP richt zich hierbij bijzonder op werken van moderne componisten. Momenteel is Philip
-                                        Venema STEP's huiscomponist en staat STEP onder muzikale leiding van Sjoerd Haver.
-                                    </p>
-                                </div>
-                                <div class="col l1">
-
-                                </div>
-                                <div class="col l3 s12 links">
-                                    <ul>
-                                        <li><a class="grey-text text-lighten-3" href="/?mypage=mensen">Contact</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
-                                        <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="/?mypage=doneer">Doneer</a></li>
-                                        <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-copyright fbar2">
-                            <div class="container">
-                                © 2020 Stichting Ensemble Project
-                            </div>
-                        </div>
-                    </footer>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+                </div>
+                <div class="col l3 s12 links">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="/?mypage=mensen">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/?mypage=doneer">Doneer</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright fbar2">
+            <div class="container">
+                © 2020 Stichting Ensemble Project
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
 
@@ -139,17 +140,17 @@ session_start();
                 <div class="row">
                     <form class="col s12">
                         <div class="row">
-                            <div class="input-field col s12">
+                            <!-- <div class="input-field col s12">
                                 <input id="email" type="email" class="validate">
                                 <label for="email">Email</label>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <p>
-                            <label>
+                            <!-- <label>
                                 <input type="checkbox" />
                                 <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
-                            </label>
+                            </label> -->
                             </p>
                         </div>
                     </form> 
