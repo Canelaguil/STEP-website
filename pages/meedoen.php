@@ -9,10 +9,10 @@ Vermeld hierbij wie je bent, je leeftijd, je instrument, orkestervaring en waaro
 
 <div class="row hometext meedoenblock">
 <h4>Repetitiedata</h4>
-<p class="textblack">Er zal gerepeteerd worden in de weekenden van februari-mei 2020. Data worden nog bekend gemaakt!</p>
+<p class="textblack">Er zal gerepeteerd worden in de weekenden van februari-mei 2020. Precieze data worden nog bekend gemaakt!</p>
 </div>
 
 <div class="row hometext meedoenblock lastblock">
 <h4>Concerten</h4>
-<p class="textblack">Informatie over concertdata en programmering (voor zover die bekend is) kan gevonden worden onder <a href="/?muziek">Muziek</a>.</p>
+<p class="textblack">Informatie over concertdata en programmering (voor zover die bekend is) kan gevonden worden onder <a href="/muziek">Muziek</a>.</p>
 </div>

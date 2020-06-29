@@ -22,15 +22,10 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Wouter Booij<i class="material-icons right">close</i></span>
-                <p>Wouter is 21 jaar, woonachtig in Hoorn en de voorzitter van Stichting Ensemble Project. Hij speelt sinds 
-                    2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Nu is 
-                    Wouter zowel voorzitter van STEP als acquisiteur van het VU-Orkest (2020-2021). Momenteel is hij zijn master aan de VU aan het afronden. Zijn taak binnen STEP 
-                    zou het best beschreven kunnen worden als het creëren van coördinatie en het vormen van een schakel tussen
-                    bestuursleden onderling. Daarbij dient de voorzitter als contactpersoon voor de (muziek)wereld buiten 
-                    STEP.</p>
+                <p>Wouter Booij (1998), woonachtig in Hoorn, is de voorzitter van STEP. Hij speelt sinds 2015 eerste viool in het Noordhollands Jeugdorkest en sinds 2019 tweede viool in het VU-Orkest. Naast zijn muzikale bezigheden is hij bezig zijn master Work and Organizational Psychology  aan de VU af te ronden. Als voorzitter houdt Wouter zich onder andere bezig met het coördineren van de projecten en het vormt hij een schakel tussen bestuursleden onderling. </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:voorzitter@ensembleproject.nl">Email</a>
+                    <a href="https://www.linkedin.com/in/booijwouter/">Linkedin</a>
                 </div>
             </div>
 
@@ -48,10 +43,12 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Tessa Heeroma<i class="material-icons right">close</i></span>
-                <p>Tessa Heeroma (1996) studeerde klassieke talen en Arabisch aan de UvA. Vanaf jonge leeftijd heeft ze viool (en later altviool) gespeeld in verschillende amateurorkesten en -ensembles. Ze heeft een brede muzieksmaak en houdt ervan om nieuwe muzikale ervaringen op te doen. Zo is ze recentelijk begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Als penningmeester bij STEP vindt Tessa het bijzonder om bij te dragen aan een organisatie die minder bekende muziek naar voren brengt.</p>
+                <p>
+                   Tessa Heeroma (1996) speelt al vanaf jonge leeftijd viool en altviool in verschillende amateurorkesten en -ensembles, waaronder het Haarlems Barok Jeugdorkest, het VU-Orkest en het strijkkwartet Puutavaaran Harjoittajat. Recentelijk is ze ook begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Daarnaast studeerde ze Klassieke Talen en Arabisch aan de UvA. Tessa is penningmeester van STEP.
+                </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:penningmeester@ensembleproject.nl">Email</a>
+                    <!-- <a href="#">Linkedin</a> -->
                 </div>
             </div>
         </div>
@@ -68,10 +65,12 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Freya Reynaert<i class="material-icons right">close</i></span>
-                <p>Freya is 29 jaar, komt uit Amsterdam en begon met vioolspelen op vijfjarige leeftijd. Op haar dertiende begon ze bij het Noordholland Jeugdorkest, waar ze ook 4,5 jaar concertmeester is geweest. Verder heeft ze in onder andere het NSO, VU-orkest en USC meegespeeld en vervult ze sinds april 2016 de rol van concertmeester bij het CREA-orkest. Freya is werkzaam als tandarts in Haarlem en Hillegom. Binnen de commissie houdt Freya zich bezig met het werven van fondsen voor de stichting om de mooie projecten van STEP tot uitvoering te kunnen laten komen. </p>
+                <p>
+                    Freya Reynaert is geboren in 1991 en begon met vioolspelen op vijfjarige leeftijd. Op haar dertiende begon ze bij het Noordhollands Jeugdorkest, waar ze tot haar vertrek ook ruim 4 jaar concertmeester is geweest. Verder heeft ze onder andere in het Nederlands Studenten Orkest, het VU-Orkest en het Utrechts Studenten Concert meegespeeld. Sinds april 2016 vervult ze de rol van concertmeester bij het CREA-orkest. Freya is werkzaam als tandarts in Haarlem en Hillegom. Als acquisiteur houdt Freya zich in het bestuur van STEP bezig met het werven van fondsen voor de stichting.
+                </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:acquisiteur@ensembleproject.nl">Email</a>
+                    <!-- <a href="#">Linkedin</a> -->
                 </div>
             </div>
 
@@ -91,11 +90,10 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Zita Verbeeck<i class="material-icons right">close</i></span>
                 <p>
-                    Zita Verbeeck (1999) speelt vanaf haar zevende viool. Na een aantal Ripieno projecten met het strijkorkest van Petra Westra, werd ze in 2015 lid van het Euregio Jeugdorkest. Vanaf haar veertiende speelt ze met veel plezier in een strijkkwartet in Nijmegen. Nadat ze in 2018 begon met de studie Docent Muziek aan het Conservatorium van Amsterdam, ging ze in het CREA orkest spelen. Het uitvoeren van grote werken voor symfonieorkest is fantastisch, maar stukken uitvoeren met een kleinere bezetting, zoals bij STEP, brengt ook mooie en leerzame momenten met zich mee.
-                </p>
+                Zita Verbeeck (1999) speelt vanaf haar zevende viool. Na een aantal strijkorkestprojecten onder leiding van Petra Westra werd ze in 2015 lid van het Euregio Jeugdorkest. Sinds haar veertiende speelt ze met veel plezier in een strijkkwartet in Nijmegen. Toen ze in 2018 begon met de studie Docent Muziek aan het Conservatorium van Amsterdam, ging ze in het CREA-orkest spelen. Zita is de orkestchef van STEP. In die rol houdt ze zich onder andere bezig met het werven van muzikanten en het organiseren van repetities en concerten.                </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:orkestchef@ensembleproject.nl">Email</a>
+                    <!-- <a href="#">Linkedin</a> -->
                 </div>
             </div>
         </div>
@@ -113,11 +111,11 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Nona Kranen<i class="material-icons right">close</i></span>
                 <p>
-                    Nona is 21 jaar en komt uit Amsterdam. Op haar vijfde begon ze met vioollessen aan de muziekschool van Amsterdam en vanaf haar tiende heeft ze met veel plezier meegespeeld met onder andere wereldmuziek ensemble Roman Oro, het NSO, het Noordhollands Jeugdorkest en sinds kort ook het Crea-orkest. Van STEP is ze in het verleden de aanvoerder van de tweede violen geweest, wat ze nu heeft uitgebreid met haar taken als secretaris. Naast muziek houdt zij zich bezig met het maken en ontwerpen van kleding en kostuums, waarvoor ze ook anderhalf jaar in Antwerpen aan de kunstacademie heeft gestudeerd.
+                    Nona Kranen (1998) komt uit Amsterdam en is de secretaris van STEP. Op haar vijfde begon ze met vioollessen aan de muziekschool van Amsterdam en vanaf haar tiende speelde ze met veel plezier mee in onder andere het wereldmuziekensemble Roman Oro, het Noordhollands Jeugdorkest, het Nederlands Studenten Orkest en het CREA-orkest. Van STEP is ze in het verleden de aanvoerder van de tweede violen geweest. Naast muziek houdt zij zich bezig met het maken en ontwerpen van kleding en kostuums, waarvoor ze ook anderhalf jaar in Antwerpen aan de kunstacademie heeft gestudeerd.                 
                 </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:secretaris@ensembleproject.nl">Email</a>
+                    <!-- <a href="#">Linkedin</a> -->
                 </div>
             </div>
 
@@ -135,10 +133,12 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Clara Martens Avila<i class="material-icons right">close</i></span>
-                <p>Clara (1997) en is een geboren Amsterdammer met een hart voor 010. Op haar achtste begon ze met vioollessen, die ze op haar twaalfde verwisselde voor een altviool. Ze heeft jaren bij het Noordhollands Jeugdorkest gezeten en meegespeeld met orkesten als het VU-orkest, Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. Clara studeert informatica en heeft vanuit haar functie als promotiecommissaris de website gemaakt. Je kunt haar altijd bereiken voor suggesties daarover en voor promotiesamenwerkingen!</p>
+                <p>
+                    Clara Martens Avila (1997) is geboren in Amsterdam. Op haar achtste begon ze met vioollessen, later stapte ze over op altviool. Ze speelde onder andere bij het Noordhollands Jeugdorkest en bij studentenorkesten als het VU-Orkest, Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. Na haar studie [studie?] in Rotterdam studeert ze nu informatica aan de UvA. Binnen STEP is Clara verantwoordelijk voor de promotie en de website. 
+                </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:promotie@ensembleproject.nl">Email</a>
+                    <a href="https://www.linkedin.com/in/claramartensavila/">Linkedin</a>
                 </div>
             </div>
 
@@ -164,10 +164,12 @@
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Sjoerd Haver<i class="material-icons right">close</i></span>
-                <p>Sjoerd Haver (1998), is een jonge, gedreven dirigent uit Amsterdam. Zijn carrière ging van start toen hij op 18-jarige leeftijd als dirigent werd aangenomen bij het Vierwindenkoor Amsterdam. Momenteel dirigeert Sjoerd de Muziekvereniging Amsterdam en het Défis blazersensemble, en is werkt hij regelmatig als repetitor bij diverse studentenorkesten. Tijdens zijn bachelor Docent Muziek, volgde Sjoerd directielessen bij Jacob Slagter, Lucas Vis en Hans van den Brand. Momenteel volgt Sjoerd de masteropleiding orkestdirectie bij Etienne Siebens aan het Fontys conservatorium te Tilburg. Als dirigent houdt Sjoerd zich niet alleen bezig met het standaard repertoire, maar wil hij ook bijdragen aan nieuw repertoire voor verschillende bezettingen. Zo heeft hij de recentelijk nauw samengewerkt met de componisten Siying Li, Vlad Chlek en de huiscomponist van STEP Philip Venema.</p>
-                <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                <p>
+                    Sjoerd Haver (1998), is een jonge, gedreven dirigent uit Amsterdam. Op jonge leeftijd speelde hij als slagwerker bij de plaatselijke harmonie. Toen hij begon bij het Noordhollands Jeugdorkest, waar hij later overstapte op contrabas, kwam hij in contact met de symfonische wereld en werd zijn interesse voor dirigeren gewekt. Op 18-jarige leeftijd werd hij als dirigent aangenomen bij het Vierwindenkoor Amsterdam, wat de start vormde voor zijn muzikale carrière. Momenteel dirigeert Sjoerd, naast STEP, de Muziekvereniging Amsterdam en het Défis Blazersensemble. Tevens is hij regelmatig repetitor bij diverse studentenorkesten. Tijdens zijn bachelor Docent Muziek aan het Conservatorium van Amsterdam volgde Sjoerd directielessen bij Jacob Slagter, Lucas Vis en Hans van den Brand. Momenteel volgt hij de masteropleiding Orkestdirectie bij Etienne Siebens aan het Fontys Conservatorium te Tilburg. Als dirigent houdt Sjoerd zich niet alleen bezig met het standaardrepertoire, maar wil hij ook bijdragen aan nieuw repertoire voor verschillende bezettingen. Zo heeft hij de recentelijk nauw samengewerkt met de componisten Siying Li, Vlad Chlek en de huiscomponist van STEP, Philip Venema.                
+                </p>
+                    <div class="card-action">
+                    <a href="mailto:sjoerd@ensembleproject.nl">Email</a>
+                    <a href="#">Website</a>
                 </div>
             </div>
         </div>
@@ -185,11 +187,11 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Philip Venema<i class="material-icons right">close</i></span>
                 <p>
-                    Philip Venema is geboren in 1995 in Amsterdam. Hij is al vanaf jonge leeftijd bezig geweest met muziek. Al van jongs af aan leerde hij piano, drum en gitaar spelen en hij begon ook al vroeg stukken te componeren, maar hij eindigde uiteindelijk met vioollessen. Eerst bij zijn oom, violist van het Nederlands Philharmonisch Orkest, later bij Sjanneke Laghuwitz. Hij is altijd blijven componeren voor verschillende instrumenten en ensembles. Zo schreef hij aan het eind van de middelbare school een symfonie die hij uitvoerde met een orkest dat hij speciaal hiervoor tijdelijk had opgericht. Dit was voor hem een hele bijzondere ervaring die hem deed besluiten componist te worden. Na het afsluiten van de middelbare school had hij een tijd lang les bij Klaas ten Holt, en vanaf 2017 studeerde hij aan het Koninklijk Conservatorium van Den Haag, waar hij nu bij Martijn Padding en Calliope Tsoupaki studeert. Sinds haar oprichting is Philip Venema de huiscompoinst van STEP. Hij heeft met groot succes stukken van verschillende samenstellingen voor het ensemble gecomponeerd.
+                    Philip Venema is geboren in 1995 in Amsterdam. Hij is al vanaf jonge leeftijd bezig met muziek. Naast dat hij piano, drums en gitaar leerde spelen, was zijn voornaamste focus de viool. Eerst had hij privéles bij Robert Oskam, violist bij het Nederlands Philharmonisch Orkest, later bij Sjanneke Laghuwitz. Ook had hij al vroeg interesse in componeren, wat hij dan ook steeds meer is gaan doen, voor verschillende instrumenten en ensembles. Op zijn achttiende schreef hij zijn eerste symfonie die hij uitvoerde met een hiervoor opgericht orkest. Dit was voor hem een bijzondere ervaring, die hem deed besluiten componist te worden. Na het afsluiten van de middelbare school had hij les bij Klaas ten Holt. In 2017 begon hij zijn studie aan het Koninklijk Conservatorium Den Haag, waar hij nu lessen volgt bij Martijn Padding en Calliope Tsoupaki. Sinds de oprichting van STEP in maart 2019 is Philip de huiscomponist. Hij heeft bij elk van de afgelopen twee projecten een opdrachtcompositie geschreven.                
                 </p>
                 <div class="card-action">
-                    <a href="#">Email</a>
-                    <a href="#">Linkedin</a>
+                    <a href="mailto:philipvenema@hotmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/philip-venema-1223a919b/">Linkedin</a>
                 </div>
             </div>
         </div>

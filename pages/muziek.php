@@ -87,7 +87,7 @@
              </div>
              <div class="card-action muziekknoppen">
               <a  class="" target="_blank" href="https://www.facebook.com/events/214253549949073/">Facebook</a>
-               <a id="koop" target="_blank" class="disabled" href="#">Koop tickets</a>
+               <!-- <a id="koop" target="_blank" class="disabled" href="#">Koop tickets</a> -->
              </div>
            </div>
          </div>

@@ -14,5 +14,5 @@
         STEP is een projectorkest dat zich richt op orkestwerk voor kleine, unieke bezettingen. Van oude én
         nieuwe componisten.
     </p>
-    <a class='waves-effect waves-light btn btnwhite'>doe mee</a>
+    <a class='waves-effect waves-light btn btnwhite' href="/meedoen">doe mee</a>
 </div>

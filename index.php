@@ -1,5 +1,33 @@
 <?php
-session_start();
+// session_start();
+
+$request = $_SERVER['REQUEST_URI'];
+$mypage = "home";
+
+switch ($request) {
+    case '/' :
+        $mypage = "home";
+        break;
+    case '' :
+        $mypage = "home";
+        break;
+    case '/muziek' :
+        $mypage = "muziek";
+        break;
+    case '/mensen' :
+        $mypage = "mensen";
+        break;
+    case '/meedoen' :
+        $mypage = "meedoen";
+        break;
+    case '/doneer' :
+        $mypage = "doneer";
+        break;
+    // default:
+    //     http_response_code(404);
+    //     require __DIR__ . '/views/404.php';
+    //     break;
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,12 +53,12 @@ session_start();
             </div>
             <div class="row navcols">
                 <div class="col s12 m12 l4 left">
-                    <a target="_self" href="/?mypage=home"><img src="./img/steplogo.png" alt="Logo STEP" class="brand-logo steplogo center"></a>
+                    <a target="_self" href="/"><img src="./img/steplogo.png" alt="Logo STEP" class="brand-logo steplogo center"></a>
                 </div>
                 <div class="col s12 m12 l8 colmenuright">
                     <div class="row uppermenu hide-on-med-and-down">
                         <a target="_self" class='btn btntransparent modal-trigger' href="#nieuwsbrief">Nieuwsbrief</a>
-                        <a class='waves-effect waves-light btn btnblack' href="/?mypage=doneer"">Doneer</a>
+                        <a class='waves-effect waves-light btn btnblack' href="/doneer"">Doneer</a>
                     </div>
                     <div class="row hide-on-med-and-downpaddingrow">
 
@@ -38,9 +66,9 @@ session_start();
                     <div class="row menurow right lowermenu">
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a target="_self" href="/?mypage=muziek"">Muziek</a></li>
-                                <li class=" tab menulink"><a target="_self" href="/?mypage=mensen">Mensen</a></li>
-                                <li class="menulink tab"><a target="_self" href="/?mypage=meedoen"">Meedoen</a></li>
+                                <li class="tab menulink"><a target="_self" href="/muziek"">Muziek</a></li>
+                                <li class=" tab menulink"><a target="_self" href="/mensen">Mensen</a></li>
+                                <li class="menulink tab"><a target="_self" href="/meedoen"">Meedoen</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,11 +77,6 @@ session_start();
         </div>
 
         <?php
-        if (isset($_GET['mypage']) && $_GET['mypage'] != '') {
-            $mypage = $_GET['mypage']; // page being requested
-        } else {
-            $mypage = 'home'; // default page
-        }
 
         switch ($mypage) {
 
@@ -112,11 +135,12 @@ session_start();
                 </div>
                 <div class="col l3 s12 links">
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="/?mypage=mensen">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="mailto:secretaris@ensembleproject.nl">secretaris@ensembleproject.nl</a></li>
+                        <li><span class="grey-text text-lighten-3">+31 6 365 482 97</span></li>
                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
-                        <li><a class="grey-text text-lighten-3" href="/?mypage=doneer">Doneer</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/doneer">Doneer</a></li>
+                        <!-- <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li> -->
                     </ul>
                 </div>
             </div>

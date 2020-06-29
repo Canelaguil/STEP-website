@@ -413,6 +413,12 @@ body, html, main {
   margin-bottom: 0px;
 }
 
+@media only screen and (max-width: 500px) {
+  .mensentitle h2 {
+    word-break: break-all !important;
+  }
+}
+
 .blackbox {
   background-color: #222021;
   padding: 12px !important;
