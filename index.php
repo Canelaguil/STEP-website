@@ -1,26 +1,23 @@
 <?php
 // session_start();
 
-$request = $_SERVER['REQUEST_URI'];
+$request = $_REQUEST;
 $mypage = "home";
 
-switch ($request) {
-    case '/' :
-        $mypage = "home";
-        break;
+switch ($request['pagina']) {
     case '' :
         $mypage = "home";
         break;
-    case '/muziek' :
+    case 'muziek' :
         $mypage = "muziek";
         break;
-    case '/mensen' :
+    case 'mensen' :
         $mypage = "mensen";
         break;
-    case '/meedoen' :
+    case 'meedoen' :
         $mypage = "meedoen";
         break;
-    case '/doneer' :
+    case 'doneer' :
         $mypage = "doneer";
         break;
     // default:
@@ -58,7 +55,7 @@ switch ($request) {
                 <div class="col s12 m12 l8 colmenuright">
                     <div class="row uppermenu hide-on-med-and-down">
                         <a target="_self" class='btn btntransparent modal-trigger' href="#nieuwsbrief">Nieuwsbrief</a>
-                        <a class='waves-effect waves-light btn btnblack' href="/doneer"">Doneer</a>
+                        <a class='waves-effect waves-light btn btnblack' href="/index.php?pagina=doneer">Doneer</a>
                     </div>
                     <div class="row hide-on-med-and-downpaddingrow">
 
@@ -66,9 +63,10 @@ switch ($request) {
                     <div class="row menurow right lowermenu">
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a target="_self" href="/muziek"">Muziek</a></li>
-                                <li class=" tab menulink"><a target="_self" href="/mensen">Mensen</a></li>
-                                <li class="menulink tab"><a target="_self" href="/meedoen"">Meedoen</a></li>
+                                <li class="tab menulink"><a target="_self" href="/index.php?pagina=muziek">Muziek</a></li>
+                                <li class=" tab menulink"><a target="_self" href="/index.php?pagina=mensen">Mensen</a></li>
+                                <li class="menulink tab"><a target="_self" href="/index.php?pagina=meedoen">Meedoen</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -139,7 +137,7 @@ switch ($request) {
                         <li><span class="grey-text text-lighten-3">+31 6 365 482 97</span></li>
                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
-                        <li><a class="grey-text text-lighten-3" href="/doneer">Doneer</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/index.php?pagina=doneer">Doneer</a></li>
                         <!-- <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li> -->
                     </ul>
                 </div>
