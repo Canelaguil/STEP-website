@@ -38,7 +38,7 @@
              </div>
              <div class="card-action muziekknoppen">
               <!-- <a  class="" target="_blank" href="https://www.facebook.com/events/772463026466277/">Facebook</a> -->
-               <a id="koop" target="_blank" class="" href="/?mypage=meedoen">Meedoen</a>
+               <a id="koop" target="_blank" class="" href="/index.php?pagina=meedoen">Meedoen</a>
              </div>
            </div>
          </div>
