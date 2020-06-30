@@ -2,7 +2,7 @@
     <ul class="blackbox">
         <li><a class="textwhite" href="#bestuur">Bestuur 2020/2021</a></li>
         <li><a class="textwhite" href="#dircomp">Dirigent & Huiscomponist</a></li>
-        <li><a class="textwhite" href="#aanbeveling">Committee van Aanbeveling</a></li>
+        <li><a class="textwhite" href="#aanbeveling">Comité van aanbeveling</a></li>
     </ul>
 </div>
 
@@ -202,7 +202,7 @@
 
 
 <div class="row hometext mensentitle" id="aanbeveling">
-    <h2>Committee van aanbeveling</h2>
+    <h2>Comité van aanbeveling</h2>
 </div>
 
 <div class="row hometext mensentitle" id="aanbeveling">
