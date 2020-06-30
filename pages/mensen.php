@@ -169,7 +169,7 @@
                 </p>
                     <div class="card-action">
                     <a href="mailto:sjoerd@ensembleproject.nl">Email</a>
-                    <a href="#">Website</a>
+                    <a href="https://www.sjoerdhaver.nl">Website</a>
                 </div>
             </div>
         </div>
