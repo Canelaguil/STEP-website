@@ -35,6 +35,7 @@ switch ($request) {
 
 <head>
     <title>STEP - Home</title>
+    <meta charset="UTF-8">
     <link rel='icon' href='img/cursor22.png' type='image/x-icon' />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
