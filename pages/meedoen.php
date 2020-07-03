@@ -9,7 +9,7 @@ Vermeld hierbij wie je bent, je leeftijd, je instrument, orkestervaring en waaro
 
 <div class="row hometext meedoenblock">
 <h4>Repetitiedata</h4>
-<p class="textblack">Er zal gerepeteerd worden in de weekenden van februari-mei 2021. Precieze data worden nog bekend gemaakt!</p>
+<p class="textblack">Er zal gerepeteerd worden in weekenden in januari-februari 2021. Precieze data worden nog bekend gemaakt!</p>
 </div>
 
 <div class="row hometext meedoenblock lastblock">

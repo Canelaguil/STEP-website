@@ -124,8 +124,8 @@ switch ($request['pagina']) {
                     <h5 class="white-text">Over STEP</h5>
                     <p class="grey-text text-lighten-4">
                         Stichting Ensemble Project (STEP) is in 2019 opgericht met het doel studenten en jonge
-                        proffesionals de mogelijkheid te geven orkestwerk te spelen voor kleine, unieke bezettingen.
-                        STEP richt zich hierbij bijzonder op werken van moderne componisten. Momenteel is Philip
+                        professionals de mogelijkheid te geven orkestwerken te spelen voor kleine, unieke bezettingen.
+                        STEP richt zich hierbij in het bijzonder op werken van moderne componisten. Momenteel is Philip
                         Venema STEP's huiscomponist en staat STEP onder muzikale leiding van Sjoerd Haver.
                     </p>
                 </div>

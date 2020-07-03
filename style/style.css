@@ -127,6 +127,10 @@ h3 {
   font-weight: bolder;
 }
 
+.ondertitel {
+  font-size: 0.8em !important;
+}
+
 body, html, main {
   height: 100%;
 }

@@ -13,17 +13,16 @@
                        Wat <br>
                      </span>
                      Partita voor percussie en strijkinstrumenten, Fagerlund<br>
-                     Contrafacta Hungarica, Farkas<br>
                      Symfonie No. 3 deel 1, Beethoven<br>
-                     Nieuw werk in opdracht, Venema<br>
+                     Concert voor Contrabas, Venema (in opdracht)<br>
                      <span class="kopjemuziek">
                        Waar <br>
                      </span>
-                     Amsterdam en Tilburg <br>
+                     Amsterdam en Tilburg (optie)<br>
                      <span class="kopjemuziek">
                        Wanneer <br>
                      </span>
-                     Mei 2021 <br>
+                     April 2021 <br>
                      <span class="kopjemuziek">
                        Solist <br>
                      </span>
@@ -56,7 +55,7 @@
              </div>
              <div class="card-content">
                <p class="textmuziek">
-                 <span class="warning">Dit concert is gecancelled i.v.m. de coronacrisis.</span><br>
+                 <span class="warning">Dit concert is gecancelled i.v.m. de coronacrisis. We kijken nog of het verplaatst kan worden.</span><br>
                </p>
                <div class="row">
                  <div class="col muziekcol s12 m6">

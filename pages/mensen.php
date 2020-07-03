@@ -134,7 +134,14 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Clara Martens Avila<i class="material-icons right">close</i></span>
                 <p>
-                    Clara Martens Avila (1997) is geboren in Amsterdam. Op haar achtste begon ze met vioollessen, later stapte ze over op altviool. Ze speelde onder andere bij het Noordhollands Jeugdorkest en bij studentenorkesten als het VU-Orkest, Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. Na haar studie [studie?] in Rotterdam studeert ze nu informatica aan de UvA. Binnen STEP is Clara verantwoordelijk voor de promotie en de website. 
+                    Clara Martens Avila (1997) is geboren in Amsterdam. Op haar 
+                    achtste begon ze met vioollessen, later stapte ze over op 
+                    altviool. Ze speelde onder andere bij het Noordhollands 
+                    Jeugdorkest en bij studentenorkesten als het VU-Orkest, 
+                    Krashna-Musica, Intermezzo en het Rotterdams Studenten Orkest. 
+                    Na een paar jaar in Rotterdam studeert ze nu informatica 
+                    aan de UvA. Binnen STEP is Clara verantwoordelijk voor de 
+                    promotie en de website. 
                 </p>
                 <div class="card-action">
                     <a href="mailto:promotie@ensembleproject.nl">Email</a>
@@ -207,9 +214,34 @@
 
 <div class="row hometext mensentitle" id="aanbeveling">
     <ul class="aanbevelinglijst">
-        <li>Bas Pollard</li>
-        <li>Herman Draaisma</li>
-        <li>Nick Devons</li>
-        <li>Johan Adriaenssen</li>
+        <li>Dhr. S. L. Pollard <br>
+        <em class="ondertitel">
+            Dirigent Noord-Hollands jeugdorkest, CREA-orkest en Utrechts studentenconcert, docent aan het Conservatorium van Amsterdam
+        </em>
+        </li><br>
+        <li>Dhr. M. Padding<br>
+        <em class="ondertitel">
+            Componist, hoofd afdeling compositie Conservatorium te Den Haag        </em>
+        </li><br>
+        <li>Dhr. H. Draaisma<br>
+        <em class="ondertitel">
+            Klarinettist, basklarinettist NedPho/NKO, dirigent Zoroaster, Arcato. Gastdirigent/coaching bij vele studentenorkesten Amsterdam en Utrecht       
+        </em>
+        </li><br>
+        <li>Dhr. P. van der Reijden<br>
+        <em class="ondertitel">
+            Dirigent       
+        </em>
+        </li><br>
+        <li>Dhr. J. Adriaenssen<br>
+        <em class="ondertitel">
+            Componist, lid van de Noorse Componistenvereniging (NKF)       
+        </em>
+        </li><br>
+        <li>Dhr. J. Olof<br>
+        <em class="ondertitel">
+        Dirigent, violist, artistiek leider De KlankKast       
+        </em>
+        </li>
     </ul>
 </div>
