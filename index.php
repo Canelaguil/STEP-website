@@ -1,30 +1,5 @@
 <?php
-// session_start();
-
-$request = $_REQUEST;
-$mypage = "home";
-
-switch ($request['pagina']) {
-    case '' :
-        $mypage = "home";
-        break;
-    case 'muziek' :
-        $mypage = "muziek";
-        break;
-    case 'mensen' :
-        $mypage = "mensen";
-        break;
-    case 'meedoen' :
-        $mypage = "meedoen";
-        break;
-    case 'doneer' :
-        $mypage = "doneer";
-        break;
-    // default:
-    //     http_response_code(404);
-    //     require __DIR__ . '/views/404.php';
-    //     break;
-}
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -56,7 +31,7 @@ switch ($request['pagina']) {
                 <div class="col s12 m12 l8 colmenuright">
                     <div class="row uppermenu hide-on-med-and-down">
                         <a target="_self" class='btn btntransparent modal-trigger' href="#nieuwsbrief">Nieuwsbrief</a>
-                        <a class='waves-effect waves-light btn btnblack' href="/index.php?pagina=doneer">Doneer</a>
+                        <a class='waves-effect waves-light btn btnblack' href="/index.php?p=doneer">Doneer</a>
                     </div>
                     <div class="row hide-on-med-and-downpaddingrow">
 
@@ -64,9 +39,9 @@ switch ($request['pagina']) {
                     <div class="row menurow right lowermenu">
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a target="_self" href="/index.php?pagina=muziek">Muziek</a></li>
-                                <li class=" tab menulink"><a target="_self" href="/index.php?pagina=mensen">Mensen</a></li>
-                                <li class="menulink tab"><a target="_self" href="/index.php?pagina=meedoen">Meedoen</a></li>
+                                <li class="tab menulink"><a target="_self" href="/index.php?p=muziek">Muziek</a></li>
+                                <li class=" tab menulink"><a target="_self" href="/index.php?p=mensen">Mensen</a></li>
+                                <li class="menulink tab"><a target="_self" href="/index.php?p=meedoen">Meedoen</a></li>
 
                             </ul>
                         </div>
@@ -77,7 +52,13 @@ switch ($request['pagina']) {
 
         <?php
 
-        switch ($mypage) {
+        if (isset($_GET['p']) && $_GET['p'] != '') {
+            $p = $_GET['p']; // page being requested
+        } else {
+            $p = 'home'; // default page
+        }
+
+        switch ($p) {
 
                 /* MAIN MENUS */
             case "home":
@@ -101,17 +82,11 @@ switch ($request['pagina']) {
             case "doneer":
                 @include("pages/doneer.php");
                 break;
-
-                /* DEFAULT */
-
-                // default:
-                //     @include("pages/home.php");
-                // break;
         }
 
         ?>
-    
-    <div class="blackbar"></div>
+
+        <div class="blackbar"></div>
 
     </div>
 
@@ -136,9 +111,9 @@ switch ($request['pagina']) {
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="mailto:secretaris@ensembleproject.nl">secretaris@ensembleproject.nl</a></li>
                         <li><span class="grey-text text-lighten-3">+31 6 365 482 97</span></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/stepensemble">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
-                        <li><a class="grey-text text-lighten-3" href="/index.php?pagina=doneer">Doneer</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/index.php?p=doneer">Doneer</a></li>
                         <!-- <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li> -->
                     </ul>
                 </div>
@@ -155,34 +130,34 @@ switch ($request['pagina']) {
 
 
 <div id="nieuwsbrief" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <h4>Aanmelden nieuwsbrief</h4>
-                <p>
-                    Op dit moment is het nog niet mogelijk je via de website in te schrijven voor onze nieuwsbrief. Stuur een email naar <a href="mailto:promotie@ensembleproject.nl">promotie@ensembleproject.nl</a> om je op te geven!.
-                </p>
+    <div class="modal-content">
+        <h4>Aanmelden nieuwsbrief</h4>
+        <p>
+            Op dit moment is het nog niet mogelijk je via de website in te schrijven voor onze nieuwsbrief. Stuur een email naar <a href="mailto:promotie@ensembleproject.nl">promotie@ensembleproject.nl</a> om je op te geven!.
+        </p>
+        <div class="row">
+            <form class="col s12">
                 <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <!-- <div class="input-field col s12">
+                    <!-- <div class="input-field col s12">
                                 <input id="email" type="email" class="validate">
                                 <label for="email">Email</label>
                             </div> -->
-                        </div>
-                        <div class="row">
-                            <p>
-                            <!-- <label>
+                </div>
+                <div class="row">
+                    <p>
+                        <!-- <label>
                                 <input type="checkbox" />
                                 <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
                             </label> -->
-                            </p>
-                        </div>
-                    </form> 
-                 </div> 
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sluit</a>
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat disabled">Verstuur</a>
-            </div>
+                    </p>
+                </div>
+            </form>
         </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sluit</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat disabled">Verstuur</a>
+    </div>
+</div>
 
 </html>

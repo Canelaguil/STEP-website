@@ -93,7 +93,7 @@
                 Zita Verbeeck (1999) speelt vanaf haar zevende viool. Na een aantal strijkorkestprojecten onder leiding van Petra Westra werd ze in 2015 lid van het Euregio Jeugdorkest. Sinds haar veertiende speelt ze met veel plezier in een strijkkwartet in Nijmegen. Toen ze in 2018 begon met de studie Docent Muziek aan het Conservatorium van Amsterdam, ging ze in het CREA-orkest spelen. Zita is de orkestchef van STEP. In die rol houdt ze zich onder andere bezig met het werven van muzikanten en het organiseren van repetities en concerten.                </p>
                 <div class="card-action">
                     <a href="mailto:orkestchef@ensembleproject.nl">Email</a>
-                    <!-- <a href="#">Linkedin</a> -->
+                    <a href="https://www.linkedin.com/in/zita-verbeeck-0a97971b1">Linkedin</a>
                 </div>
             </div>
         </div>
@@ -216,31 +216,31 @@
     <ul class="aanbevelinglijst">
         <li>Dhr. S. L. Pollard <br>
         <em class="ondertitel">
-            Dirigent Noord-Hollands jeugdorkest, CREA-orkest en Utrechts studentenconcert, docent aan het Conservatorium van Amsterdam
+            Dirigent NHJO en Crea-orkest, docent aan Conservatorium van Amsterdam
         </em>
         </li><br>
         <li>Dhr. M. Padding<br>
         <em class="ondertitel">
-            Componist, hoofd afdeling compositie Conservatorium te Den Haag        </em>
+            Componist, hoofd afdeling compositie Conservatorium Den Haag        </em>
         </li><br>
         <li>Dhr. H. Draaisma<br>
         <em class="ondertitel">
-            Klarinettist, basklarinettist NedPho/NKO, dirigent Zoroaster, Arcato. Gastdirigent/coaching bij vele studentenorkesten Amsterdam en Utrecht       
+            Klarinettist en basklarinettist NedPho/NKO, dirigent bij onder andere Zoroaster, Arcato
         </em>
         </li><br>
         <li>Dhr. P. van der Reijden<br>
         <em class="ondertitel">
-            Dirigent       
+            Dirigent van onder andere Hilversumse Orkest Vereniging en Divertimento, (alt)violist en pianist   
         </em>
         </li><br>
         <li>Dhr. J. Adriaenssen<br>
         <em class="ondertitel">
-            Componist, lid van de Noorse Componistenvereniging (NKF)       
+            Componist, lid Noorse Componistenvereniging (NKF)       
         </em>
         </li><br>
         <li>Dhr. J. Olof<br>
         <em class="ondertitel">
-        Dirigent, violist, artistiek leider De KlankKast       
+        Dirigent van onder andere Zaans Symfonie Orkest en KLM/Air France Airchestra, violist, artistiek leider De KlankKast       
         </em>
         </li>
     </ul>
