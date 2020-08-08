@@ -14,5 +14,5 @@ Vermeld hierbij wie je bent, je leeftijd, je instrument, orkestervaring en waaro
 
 <div class="row hometext meedoenblock lastblock">
 <h4>Concerten</h4>
-<p class="textblack">Informatie over concertdata en programmering (voor zover die bekend is) kan gevonden worden onder <a href="index.php?p=meedoen">Muziek</a>.</p>
+<p class="textblack">Informatie over concertdata en programmering (voor zover die bekend is) kan gevonden worden onder <a href="index.php?p=muziek">Muziek</a>.</p>
 </div>
