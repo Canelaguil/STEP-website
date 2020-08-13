@@ -111,3 +111,11 @@ h3 {
 .ondertitel {
     font-size: 0.8em !important; 
 }
+
+.error404 {
+    font-size: 25em !important;
+    font-family: $titlefont;
+    font-weight: bold;
+    text-align: center !important;
+    word-break: break-all !important;
+}

@@ -1,5 +1,31 @@
 <?php
-session_start();
+$request = $_SERVER['REQUEST_URI'];
+$mypage = "home";
+
+switch ($request) {
+    case '/':
+        $mypage = "home";
+        break;
+    case '':
+        $mypage = "home";
+        break;
+    case '/muziek':
+        $mypage = "muziek";
+        break;
+    case '/mensen':
+        $mypage = "mensen";
+        break;
+    case '/meedoen':
+        $mypage = "meedoen";
+        break;
+    case '/doneer':
+        $mypage = "doneer";
+        break;
+    default:
+        http_response_code(404);
+        $mypage = "error";
+        break;
+}
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +43,32 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+
+    <!-- Primary Meta Tags -->
+    <title>STEP - Stichting Ensemble Project</title>
+    <meta name="title" content="STEP - Stichting Ensemble Project">
+    <meta name="description" content="
+
+Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken te spelen voor kleine, unieke bezettingen van vooral moderne componisten.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="STEP - Stichting Ensemble Project">
+    <meta property="og:description" content="
+
+Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken te spelen voor kleine, unieke bezettingen van vooral moderne componisten.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="STEP - Stichting Ensemble Project">
+    <meta property="twitter:description" content="
+
+Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken te spelen voor kleine, unieke bezettingen van vooral moderne componisten.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
 </head>
 
 <body>
@@ -31,7 +83,7 @@ session_start();
                 <div class="col s12 m12 l8 colmenuright">
                     <div class="row uppermenu hide-on-med-and-down">
                         <a target="_self" class='btn btntransparent modal-trigger' href="#nieuwsbrief">Nieuwsbrief</a>
-                        <a class='waves-effect waves-light btn btnblack' href="/index.php?p=doneer">Doneer</a>
+                        <a class='waves-effect waves-light btn btnblack' href="/doneer">Doneer</a>
                     </div>
                     <div class="row hide-on-med-and-downpaddingrow">
 
@@ -39,9 +91,9 @@ session_start();
                     <div class="row menurow right lowermenu">
                         <div class="nav-content ">
                             <ul class="tabs tabs-transparent">
-                                <li class="tab menulink"><a target="_self" href="/index.php?p=muziek">Muziek</a></li>
-                                <li class=" tab menulink"><a target="_self" href="/index.php?p=mensen">Mensen</a></li>
-                                <li class="menulink tab"><a target="_self" href="/index.php?p=meedoen">Meedoen</a></li>
+                                <li class="tab menulink"><a target="_self" href="/muziek">Muziek</a></li>
+                                <li class=" tab menulink"><a target="_self" href="/mensen">Mensen</a></li>
+                                <li class="menulink tab"><a target="_self" href="/meedoen">Meedoen</a></li>
 
                             </ul>
                         </div>
@@ -52,13 +104,7 @@ session_start();
 
         <?php
 
-        if (isset($_GET['p']) && $_GET['p'] != '') {
-            $p = $_GET['p']; // page being requested
-        } else {
-            $p = 'home'; // default page
-        }
-
-        switch ($p) {
+        switch ($mypage) {
 
                 /* MAIN MENUS */
             case "home":
@@ -81,6 +127,11 @@ session_start();
 
             case "doneer":
                 @include("pages/doneer.php");
+                break;
+
+                /* ERROR */
+            default:
+                @include("pages/404.php");
                 break;
         }
 
@@ -113,7 +164,7 @@ session_start();
                         <li><span class="grey-text text-lighten-3">+31 6 365 482 97</span></li>
                         <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
-                        <li><a class="grey-text text-lighten-3" href="/index.php?p=doneer">Doneer</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/doneer">Doneer</a></li>
                         <!-- <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li> -->
                     </ul>
                 </div>

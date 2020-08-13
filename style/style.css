@@ -131,6 +131,14 @@ h3 {
   font-size: 0.8em !important;
 }
 
+.error404 {
+  font-size: 25em !important;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: bold;
+  text-align: center !important;
+  word-break: break-all !important;
+}
+
 body, html, main {
   height: 100%;
 }
