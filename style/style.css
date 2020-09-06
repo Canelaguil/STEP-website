@@ -188,6 +188,7 @@ body, html, main {
 
 .hometext {
   margin-top: 0px !important;
+  margin-bottom: 4px !important;
   padding: 12px;
   text-align: center;
 }
@@ -421,6 +422,7 @@ body, html, main {
   padding: 4px;
   padding-left: 16px;
   font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 3em;
   text-align: left !important;
   margin-bottom: 0px;
 }

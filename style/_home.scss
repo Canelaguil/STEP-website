@@ -42,6 +42,7 @@ body, html, main {
 
 .hometext {
   margin-top: 0px !important;
+  margin-bottom: 4px !important;
   padding: 12px;
   text-align: center;
   p {
@@ -57,7 +58,6 @@ body, html, main {
   }
   
   span {
-
     font-family: $font !important;
   }
 }

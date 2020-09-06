@@ -21,10 +21,14 @@ switch ($request) {
     case '/doneer':
         $mypage = "doneer";
         break;
-    default:
-        http_response_code(404);
-        $mypage = "error";
-        break;
+    // default:
+    //     http_response_code(404);
+    //     $mypage = "error";
+    //     break;
+
+    if(strpos($request, "?") !== false) {
+        $mypage = "home";
+    }
 }
 ?>
 
@@ -32,7 +36,6 @@ switch ($request) {
 <html lang='nl'>
 
 <head>
-    <title>STEP - Home</title>
     <meta charset="UTF-8">
     <link rel='icon' href='img/cursor22.png' type='image/x-icon' />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -53,12 +56,12 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:url" content="https://www.facebook.com/stepensemble">
     <meta property="og:title" content="STEP - Stichting Ensemble Project">
     <meta property="og:description" content="
 
 Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken te spelen voor kleine, unieke bezettingen van vooral moderne componisten.">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image" content="img/fblogo.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

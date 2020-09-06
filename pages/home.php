@@ -1,9 +1,9 @@
 <div class="row z-depth-3 containedrow ">
     <div class="hero-image ">
         <div class="hero-text z-depth-2">
-            <h1>Dvořák, Venema en Ravel</h1>
-            <h3>Zondag 11 april in de Amstelkerk</h3>
-            <a class='waves-effect waves-light btn btnred disabled'>tickets</a>
+            <h1>STEP op het Amstelveld</h1>
+            <h3>Zondag 13 september, live & online</h3>
+            <a href="/muziek#meerstep" class='waves-effect waves-light btn btnred'>meer info</a>
         </div>
         
     </div>
