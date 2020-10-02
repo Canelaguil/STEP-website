@@ -21,6 +21,9 @@ switch ($request) {
     case '/doneer':
         $mypage = "doneer";
         break;
+    case '/documenten':
+        $mypage = "documenten";
+        break;
     // default:
     //     http_response_code(404);
     //     $mypage = "error";
@@ -132,6 +135,10 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
                 @include("pages/doneer.php");
                 break;
 
+            case "documenten":
+                @include("pages/documenten.php");
+                break;
+
                 /* ERROR */
             default:
                 @include("pages/404.php");
@@ -168,7 +175,7 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
                         <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.facebook.com/stepensemble">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3 modal-trigger" target="_self" href="#nieuwsbrief">Nieuwsbrief</a></li>
                         <li><a class="grey-text text-lighten-3" href="/doneer">Doneer</a></li>
-                        <!-- <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li> -->
+                        <li><a class="grey-text text-lighten-3" href="/documenten">Meer informatie</a></li>
                     </ul>
                 </div>
             </div>

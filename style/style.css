@@ -621,6 +621,25 @@ body, html, main {
   margin-bottom: 34vh !important;
 }
 
+.docslist li {
+  list-style-type: square !important;
+  list-style-position: inside;
+}
+
+.docslist li a {
+  color: #990000ff !important;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.docslist li a:hover {
+  text-decoration: underline;
+}
+
+.infolist li {
+  font-size: 1.5em;
+}
+
 html {
   min-height: 100% !important;
   cursor: url("../img/cursor22.png"), auto !important;

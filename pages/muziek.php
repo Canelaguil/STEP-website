@@ -71,7 +71,7 @@
                       Wat <br>
                     </span>
                     Blazersserenade, Dvořák<br>
-                    Breezes – Winds - Spets,, Venema<br>
+                    Breezes – Winds - Spets, Venema<br>
                     La Vallée des Cloches, Ravel<br>
                     <span class="kopjemuziek">
                       Waar <br>
@@ -86,7 +86,7 @@
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
                     Na een succesvolle eerste editie, waar Impressions Fugitives van Philip Venema en de Serenade voor Strijkers van Tchaikovsky op het programma stonden, is het Studenten Ensemble Project terug met een blazers editie.
-                    Tijdens het concert in de Oosterkerk te Amsterdam voert het ensemble o.l.v. Sjoerd Haver de Blazersserenade van Dvořák uit, samen met twee nieuw geschreven werken van Philip Venema en een arrangement van Ravel’s La Vallée des Cloches.
+                    Tijdens het concert in de Oosterkerk te Amsterdam voert het ensemble o.l.v. Sjoerd Haver de Blazersserenade van Dvořák uit, samen met drie nieuw geschreven werken van Philip Venema en een arrangement van Ravel’s La Vallée des Cloches.
                   </p>
                 </div>
               </div>
@@ -148,8 +148,8 @@
     <h2>Nog meer STEP</h2>
 </div>
 <ul class="collapsible">
-  <li >
-    <div class="collapsible-header"><i class="material-icons">blur_on</i>Step en het Karavaanproject</div>
+  <li class='active'>
+    <div class="collapsible-header active"><i class="material-icons">blur_on</i>Step en het Karavaanproject</div>
     <div class="collapsible-body">
       <div id="concert1" class="row">
         <div class="col s12 m12">
@@ -180,16 +180,16 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="card-action muziekknoppen">
-              <a class="" target="_blank" href="https://www.cma-podium.nl/">Meer informatie</a>
+              <div class="card-action muziekknoppen">
+                <a class="" target="_blank" href="http://www.stichtingdeboshalte.nl/buitenveldertse-karavaan/">Meer informatie</a>
               <!-- <a id="koop" target="_blank" class="disabled" href="#">Koop tickets</a> -->
-            <!-- </div> --> 
+              </div> 
           </div>
         </div>
       </div>
   </li>
-  <li class="active">
-    <div class="collapsible-header active"><i class="material-icons">blur_on</i>Step op het Amstelveld</div>
+  <li >
+    <div class="collapsible-header"><i class="material-icons">blur_on</i>Step op het Amstelveld</div>
     <div class="collapsible-body">
       <div id="concert1" class="row">
         <div class="col s12 m12">
