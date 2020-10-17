@@ -19,7 +19,7 @@
 
     <h4>Beloningsbeleid</h4>
     <p class="textblack">
-        Alle bestuursleden van de stichting doen dit op vrijwillegersbasis. Bestuursleden en vrijwilligers kunnen wel in aanmerking komen voor vergoeding van zakelijk gemaakte kosten en conform fiscale wet- en regelgeving.
+        Alle bestuursleden van de stichting doen dit op vrijwilligersbasis. Bestuursleden en vrijwilligers kunnen wel in aanmerking komen voor vergoeding van zakelijk gemaakte kosten en conform fiscale wet- en regelgeving.
         Componisten en dirigenten worden op projectsbasis betaald. 
     </p>
 </div>
