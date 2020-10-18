@@ -1,8 +1,9 @@
 <?php
 $request = $_SERVER['REQUEST_URI'];
-$mypage = "home";
+$request_parts = explode('?', $request, 2);
+$requested_page = $request_parts[0];
 
-switch ($request) {
+switch ($requested_page) {
     case '/':
         $mypage = "home";
         break;
@@ -24,10 +25,13 @@ switch ($request) {
     case '/documenten':
         $mypage = "documenten";
         break;
-    // default:
-    //     http_response_code(404);
-    //     $mypage = "error";
-    //     break;
+    case '/aanmelden':
+        $mypage = "aanmelden";
+        break;
+    default:
+        http_response_code(404);
+        $mypage = "error";
+        break;
 
     if(strpos($request, "?") !== false) {
         $mypage = "home";
@@ -48,6 +52,7 @@ switch ($request) {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 
     <!-- Primary Meta Tags -->
@@ -138,13 +143,16 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
             case "documenten":
                 @include("pages/documenten.php");
                 break;
+            
+            case "aanmelden":
+                @include('pages/aanmelden.php');
+                break;
 
                 /* ERROR */
             default:
                 @include("pages/404.php");
                 break;
         }
-
         ?>
 
         <div class="blackbar"></div>
@@ -193,26 +201,40 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
 <div id="nieuwsbrief" class="modal modal-fixed-footer">
     <div class="modal-content">
         <h4>Aanmelden nieuwsbrief</h4>
-        <p>
-            Op dit moment is het nog niet mogelijk je via de website in te schrijven voor onze nieuwsbrief. Stuur een email naar <a href="mailto:promotie@ensembleproject.nl">promotie@ensembleproject.nl</a> om je op te geven!.
-        </p>
+        <!-- https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec -->
         <div class="row">
-            <form class="col s12">
+            <form name='submit-to-google-sheet' class="col s12">
                 <div class="row">
-                    <!-- <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div> -->
+                    <div class="input-field col s12">
+                        <input name='email' id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
                 </div>
                 <div class="row">
                     <p>
-                        <!-- <label>
-                                <input type="checkbox" />
-                                <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
-                            </label> -->
+                        <label>
+                            <input type="checkbox" />
+                            <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
+                        </label>
                     </p>
                 </div>
+                <button type='submit'>Send</button>
             </form>
+
+
+            <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+            </script>
+
+
         </div>
     </div>
     <div class="modal-footer">

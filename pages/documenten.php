@@ -1,4 +1,4 @@
-<div class="row hometext meedoenblock doneerblok lastblock">
+<div class="row hometext meedoenblock doneerblok">
     <h4>KvK informatie</h4>
     <p class="textblack">
         <ul class='infolist'>
@@ -8,7 +8,6 @@
         </ul>
 
     </p>
-
     <h4>Documenten</h4>
     <p class="textblack">
         <ul class='docslist'>

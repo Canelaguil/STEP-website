@@ -1,10 +1,13 @@
-console.log("lkjl");
-
-
 $(document).ready(function(){
     $('.parallax').parallax();
     $('.modal').modal();
     $('.collapsible').collapsible();
+    // $('.select').formSelect();
+    // $('.select').material_select();
+    $('.dropdown-trigger').dropdown();
+    $('.datepicker').datepicker();
+    $('select').formSelect();
+    $('select').material_select();
 });
 
 // (function(){
