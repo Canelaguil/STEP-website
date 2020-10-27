@@ -6,7 +6,7 @@ $(document).ready(function(){
     // $('.select').material_select();
     $('.dropdown-trigger').dropdown();
     $('.datepicker').datepicker();
-    $('select').formSelect();
+    // $('select').formSelect();
     $('select').material_select();
 });
 

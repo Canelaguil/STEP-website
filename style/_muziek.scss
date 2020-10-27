@@ -68,3 +68,9 @@
 .collapsible-body {
     padding: 6px; 
 }
+
+.collapsible-header {
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+    }
+}

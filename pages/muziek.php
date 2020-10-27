@@ -10,7 +10,7 @@
           <div class="card mainmuziek">
             <div class="parallax-container">
               <div class="parallax"><img src="../img/step1.png"></div>
-              <span class="card-title">Fagerlund, Venema,<br>Beethoven</span>
+              <span class="card-title">Milhaud, Venema,<br>Beethoven, Van Bree</span>
             </div>
             <div class="card-content">
               <div class="row">
@@ -19,9 +19,11 @@
                     <span class="kopjemuziek">
                       Wat <br>
                     </span>
-                    Partita voor percussie en strijkinstrumenten, Fagerlund<br>
-                    Symfonie No. 3 deel 1, Beethoven<br>
                     Concert voor Contrabas, Venema (in opdracht)<br>
+                    Kamersymfonie 4, Milhaud<br>
+                    Kamersymfonie 5, Milhaud<br>
+                    Symfonie No. 3 deel 1, Beethoven<br>
+                    Allegro voor vier strijkkwartetten, Van Bree<br>
                     <span class="kopjemuziek">
                       Waar <br>
                     </span>

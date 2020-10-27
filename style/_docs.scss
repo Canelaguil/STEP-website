@@ -9,6 +9,7 @@
             font-size: $psize;
             font-family: $font;
             &:hover {
+                cursor: url('../img/cursor22.png'), auto !important;
                 text-decoration: underline;
             }
         }

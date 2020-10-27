@@ -33,9 +33,9 @@ switch ($requested_page) {
         $mypage = "error";
         break;
 
-    if(strpos($request, "?") !== false) {
-        $mypage = "home";
-    }
+        if (strpos($request, "?") !== false) {
+            $mypage = "home";
+        }
 }
 ?>
 
@@ -143,7 +143,7 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
             case "documenten":
                 @include("pages/documenten.php");
                 break;
-            
+
             case "aanmelden":
                 @include('pages/aanmelden.php');
                 break;
@@ -223,15 +223,18 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
 
 
             <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec'
-            const form = document.forms['submit-to-google-sheet']
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec'
+                const form = document.forms['submit-to-google-sheet']
 
-            form.addEventListener('submit', e => {
-                e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-            })
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, {
+                            method: 'POST',
+                            body: new FormData(form)
+                        })
+                        .then(response => console.log('Success!', response))
+                        .catch(error => console.error('Error!', error.message))
+                })
             </script>
 
 

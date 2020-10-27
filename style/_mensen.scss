@@ -10,6 +10,7 @@
         align-self: center;
         filter: grayscale(100%);
         &:hover {
+            cursor: url('../img/cursor22.png'), auto !important;
             filter: grayscale(20%);
         }
     }
@@ -40,6 +41,7 @@
         text-shadow: 1px 1px 1px #aaa;
         li {
             &:hover {
+                cursor: url('../img/cursor22.png'), auto !important;
                 text-shadow: none;
             }
         }
@@ -59,7 +61,7 @@
     &:hover {
         text-shadow: 1px 1px 1px #aaa;
         p {
-            cursor: url('../img/cursor22.png'), auto !important;
+            cursor: url('../img/cursor_link2.png'), auto !important;
         }
         
     }
@@ -98,6 +100,7 @@
 
     &:hover {
         filter: grayscale(10%);
+        cursor: url('../img/cursor22.png'), auto !important;
     }
 }
 
