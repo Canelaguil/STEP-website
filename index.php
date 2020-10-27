@@ -198,29 +198,29 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
 </body>
 
 
-<div id="nieuwsbrief" class="modal modal-fixed-footer">
+<div id="nieuwsbrief" class="modal">
     <div class="modal-content">
         <h4>Aanmelden nieuwsbrief</h4>
         <!-- https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec -->
         <div class="row">
             <form name='submit-to-google-sheet' class="col s12">
+                <div class='row'></div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input name='email' id="email" type="email" class="validate">
-                        <label for="email">Email</label>
+                        <input name='email' id="mail" type="email" class="validate" required>
+                        <label for="mail">Email</label>
                     </div>
                 </div>
-                <div class="row">
-                    <p>
-                        <label>
-                            <input type="checkbox" />
-                            <span>Ik ga akkoord met de <a href="#">privacy voorwaarden</a>.</span>
-                        </label>
-                    </p>
+                <div class="row center">
+                    Door je aan te melden ga je akkoord met de <a target="__blank__" href="https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing">privacy voorwaarden</a>.
                 </div>
-                <button type='submit'>Send</button>
+                <div class="row center">
+                    <button class="btn btnblack" type='submit'>Verstuur</button>
+                    <button class="btn btnwhite modal-close">Cancel</button>
+                </div>
             </form>
 
+            
 
             <script>
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec'
@@ -232,18 +232,15 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
                             method: 'POST',
                             body: new FormData(form)
                         })
-                        .then(response => console.log('Success!', response))
-                        .catch(error => console.error('Error!', error.message))
+                        .then(response => alert('Je hebt je succesvol opgegeven voor onze mailinglijst!'))
+                        .catch(error => alert('Er is iets misgegaan, probeer later opnieuw.', error.message))
                 })
             </script>
-
-
         </div>
     </div>
-    <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sluit</a>
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat disabled">Verstuur</a>
-    </div>
+    </form>
+
+
 </div>
 
 </html>

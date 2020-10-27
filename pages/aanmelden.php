@@ -6,22 +6,22 @@
     <form name='submit-to-google-sheet2' class="col s12">
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="first_name" id="first_name" type="text" class="validate">
+                <input name="first_name" id="first_name" type="text" class="validate" required>
                 <label for="first_name">Naam *</label>
             </div>
             <div class="input-field col s12 m6">
-                <input name="last_name" id="last_name" type="text" class="validate">
+                <input name="last_name" id="last_name" type="text" class="validate" required>
                 <label for="last_name">Achternaam *</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="birth_year" id="year" type="number">
+                <input name="birth_year" id="year" type="number" required>
                 <label for="year">Geboortejaar *</label>
             </div>
 
             <div class="input-field col s12 m6">
-                <input name="city" id="city" type="text">
+                <input name="city" id="city" type="text" required>
                 <label for="city">Woonplaats *</label>
             </div>
         </div>
@@ -31,7 +31,7 @@
         </div>
         <div class="row">
             <div class="col s12 m6 input-field">
-                <select name="instrument">
+                <select name="instrument" required>
                 <option value="" selected disabled hidden>Voorkeursinstrument *</option>
                 <optgroup label="Strijkinstrumenten">
                     <option value="Eerste viool">Eerste viool</option>
@@ -61,12 +61,12 @@
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="orkestervaring" id="ervaring" type="number">
+                <input name="orkestervaring" id="ervaring" type="number" required>
                 <label for="ervaring">Aantal jaar orkestervaring *</label>
             </div>
 
             <div class="input-field col s12 m6">
-                <input name="orkesten" id="orkesten" type="text">
+                <input name="orkesten" id="orkesten" type="text" required>
                 <label for="orkesten">Orkesten *</label>
             </div>
         </div>
@@ -76,22 +76,11 @@
         </div>
         <div class="row">
             <div class="col s12 m6 repetitietext">
-                <select name="repetities">
+                <select name="repetities" required>
                     <option value="" selected disabled hidden>Kun je naar alle repetities komen? *</option>
                     <option value="Ja">Ja</option>
                     <option value="Nee">Nee</option>           
                 </select>
-                <!-- <p class='formtext'>
-                    Kun je naar alle repetities komen? *
-                </p>
-                <p class='formtext'>
-                    <input name="repetities" type="radio" id="ja" />
-                    <label for="ja">Ja</label>
-                </p>
-                <p class='formtext'>
-                    <input name="repetities" type="radio" id="nee" />
-                    <label for="nee">Nee</label>
-                </p> -->
             </div>
             <div class="input-field col s12 m6 toelichtingcontainer">
                 <textarea name="toelichting" id="toelichting" class="materialize-textarea toelichtingbox"></textarea>
@@ -105,11 +94,11 @@
 
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="email" id="mail" type="email">
+                <input name="email" id="mail" type="email" required>
                 <label for="mail">Email *</label>
             </div>
             <div class="input-field col s12 m6">
-                <input name="telefoon" id="telefoon" type="tel" class="validate">
+                <input name="telefoon" id="telefoon" type="tel" class="validate" required>
                 <label for="telefoon">Telefoonnummer *</label>
             </div>
         </div>
@@ -120,7 +109,7 @@
 
         <div class="row">
             <div class="col s12 m6 input-field">
-                <select name="gevonden" id="found">
+                <select name="gevonden" id="found" required>
                     <option value="" selected disabled hidden>Hoe heb je ons gevonden? *</option>
                     <option value="Via via">Via via</option>
                     <option value="Via social media">Via social media</option>
@@ -129,7 +118,7 @@
                 </select>
             </div>
             <div class="input-field col s12 m6">
-                <input name="occupation" id="studie" type="text">
+                <input name="occupation" id="studie" type="text" required>
                 <label for="studie">Studie / Werk *</label>
             </div>
         </div>
@@ -143,7 +132,6 @@
         
         <div class="row">
             <p>
-                <!-- <input id="checkbox" type="checkbox"/> -->
                 <label>
                     <span class="privacytekst">Door je aan te melden ga je akkoord met de  <a target="__blank__" href="https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing">privacy voorwaarden</a>.</span>
                 </label>
@@ -165,6 +153,4 @@
                 .then(response => alert('Het formulier is succesvol verzonden!', response))
                 .catch(error => alert('Er is iets misgegaan. Het formulier is niet opgestuurt.', error.message))
         })
-
-        $("found").css({"color": "black"});
     </script>
