@@ -61,8 +61,8 @@
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="orkestervaring" id="ervaring" type="number" required>
-                <label for="ervaring">Aantal jaar orkestervaring *</label>
+                <input name="speelvaring" id="ervaring" type="number" required>
+                <label for="ervaring">Hoe lang speel je al? *</label>
             </div>
 
             <div class="input-field col s12 m6">
@@ -73,6 +73,7 @@
 
         <div class="row">
             <h3>Repetities</h3>
+            <h5 class="privacytekst">Klik <a target="__blank" href=<?php echo $repetitiedata; ?>>hier</a> voor het repetitieschema.</h5>
         </div>
         <div class="row">
             <div class="col s12 m6 repetitietext">
@@ -133,7 +134,7 @@
         <div class="row">
             <p>
                 <label>
-                    <span class="privacytekst">Door je aan te melden ga je akkoord met de  <a target="__blank__" href="https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing">privacy voorwaarden</a>.</span>
+                    <span class="privacytekst">Door je aan te melden ga je akkoord met de  <a target="__blank__" href=<?php echo $privacyvoorwaarden; ?>>privacy voorwaarden</a>.</span>
                 </label>
             </p>
         </div>

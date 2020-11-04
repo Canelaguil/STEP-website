@@ -757,12 +757,12 @@ body, html, main {
 }
 
 .privacytekst {
-  font-size: 1.3em !important;
-  color: black;
+  font-size: 1em !important;
+  color: #857575;
 }
 
 .privacytekst a {
-  color: #990000ff;
+  color: #990000ff !important;
 }
 
 .formblok {

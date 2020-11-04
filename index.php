@@ -37,6 +37,9 @@ switch ($requested_page) {
             $mypage = "home";
         }
 }
+
+$repetitiedata = "https://docs.google.com/document/d/1BPUOJxAEV8xaTaMXgstGWr59q2NmgJoKPSjnOE6nBxM/edit?usp=sharing";
+$privacyvoorwaarden = 'https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing';
 ?>
 
 <!DOCTYPE html>
@@ -212,10 +215,10 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
                     </div>
                 </div>
                 <div class="row center">
-                    Door je aan te melden ga je akkoord met de <a target="__blank__" href="https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing">privacy voorwaarden</a>.
+                    Door je aan te melden ga je akkoord met de <a target="__blank__" href=<?php echo $privacyvoorwaarden; ?>>privacy voorwaarden</a>.
                 </div>
                 <div class="row center">
-                    <button class="btn btnblack" type='submit'>Verstuur</button>
+                    <button id="verstuurknop" class="btn btnblack" type='submit'>Verstuur</button>
                     <button class="btn btnwhite modal-close">Cancel</button>
                 </div>
             </form>
@@ -228,12 +231,14 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
 
                 form.addEventListener('submit', e => {
                     e.preventDefault()
+                    document.getElementById('verstuurknop').innerHTML = 'Een moment geduld...'
                     fetch(scriptURL, {
                             method: 'POST',
                             body: new FormData(form)
                         })
                         .then(response => alert('Je hebt je succesvol opgegeven voor onze mailinglijst!'))
                         .catch(error => alert('Er is iets misgegaan, probeer later opnieuw.', error.message))
+                    document.getElementById('verstuurknop').innerHTML = 'Verstuur';
                 })
             </script>
         </div>

@@ -40,7 +40,17 @@
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                    Het volgende project, STEP 3, zal plaatsvinden van februari 2021 tot mei 2021 met een 40-koppig ensemble van strijkers en blazers. Onder leiding van Sjoerd Haver voert STEP werken uit van een hedendaagse Finse componist met een interessante rol voor percussie, Hongaarse melodieën door een blaasoctet en het eerste deel van de weergaloze derde symfonie van Beethoven. Hiernaast componeert huiscomponist Philip Venema een werk speciaal voor dit ensemble met als solo-instrument de contrabas. De première zal worden uitgevoerd door solist en bekend contrabassist Sasha Witteveen, winnares van een aantal prominente concoursen binnen en buiten Nederland. </p>
+                    Het volgende project, STEP 3, zal plaatsvinden van februari 2021 
+                    tot mei 2021 met een 40-koppig ensemble van strijkers en blazers. 
+                    Onder leiding van Sjoerd Haver voert STEP twee kamersymfonieën uit
+                    van Milhaud, een alllegro voor vier strijkkwartetten van Van Bree 
+                    en het eerste 
+                    deel van de weergaloze derde symfonie van Beethoven. Hiernaast 
+                    componeert huiscomponist Philip Venema een werk speciaal voor 
+                    dit ensemble met als solo-instrument de contrabas. De première 
+                    zal worden uitgevoerd door solist en bekend contrabassist Sasha 
+                    Witteveen, winnares van een aantal prominente concoursen binnen 
+                    en buiten Nederland. </p>
                 </div>
               </div>
             </div>

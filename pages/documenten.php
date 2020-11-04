@@ -11,7 +11,7 @@
     <h4>Documenten</h4>
     <p class="textblack">
         <ul class='docslist'>
-            <li><a target='__blank' href='https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing'>Privacy Policy</a></li>
+            <li><a target='__blank' href=<?php echo $privacyvoorwaarden; ?>>Privacy Policy</a></li>
             <li><a target='__blank' href='./files/beleidsplan.pdf'>Beleidsplan</a></li>
         </ul>
     </p>

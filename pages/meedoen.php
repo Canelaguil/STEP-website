@@ -14,7 +14,7 @@
 <div class="row hometext meedoenblock">
     <h4>Repetitiedata</h4>
     <p class="textblack">Er wordt gerepeteerd in de weekenden van februari - april 2021. De precieze repetitiedata verschillen
-        tussen strijkers en blazers, en kunnen gevonden worden in <a href="https://docs.google.com/document/d/1BPUOJxAEV8xaTaMXgstGWr59q2NmgJoKPSjnOE6nBxM/edit?usp=sharing">dit document.</a>
+        tussen strijkers en blazers, en kunnen gevonden worden in <a target="__blank" href=<?php echo $repetitiedata; ?>>dit document.</a>
     </p>
 </div>
 
