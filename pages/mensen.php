@@ -214,6 +214,10 @@
 
 <div class="row hometext mensentitle" id="aanbeveling">
     <ul class="aanbevelinglijst">
+        <li>Mevr. T. Chevtchouk<br>
+        <em class="ondertitel">
+        Directeur en artistiek leider van Klassiek op het Amstelveld
+        </em>
         <li>Dhr. S. L. Pollard <br>
         <em class="ondertitel">
             Dirigent NHJO en Crea-orkest, docent aan Conservatorium van Amsterdam
