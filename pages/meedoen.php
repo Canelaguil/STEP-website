@@ -1,7 +1,8 @@
 <div class="row hometext meedoenblock">
     <h4>Meedoen</h4>
     <p class="textblack">STEP nodigt momenteel de muzikanten persoonlijk uit. Wil je ook meedoen?
-        Vul dan het aanmeldingsformulier in! De ledencontributie is 50 euro.</p>
+        Schrijf je dan <emph>voor 11 januari</emph> in met het formulier.
+        De ledencontributie is 50 euro.</p>
 </div>
 
 <div class="row center">

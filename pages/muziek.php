@@ -20,8 +20,7 @@
                       Wat <br>
                     </span>
                     Concert voor Contrabas, Venema (in opdracht)<br>
-                    Kamersymfonie 4, Milhaud<br>
-                    Kamersymfonie 5, Milhaud<br>
+                    La Vallée des Cloches, Ravel<br>
                     Symfonie No. 3 deel 1, Beethoven<br>
                     Allegro voor vier strijkkwartetten, Van Bree<br>
                     <span class="kopjemuziek">

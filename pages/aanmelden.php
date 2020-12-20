@@ -138,20 +138,26 @@
                 </label>
             </p>
         </div>
-        <button class="btn btnblack" type='submit'>Aanmelden</button>
+        <button id="formsubmit" class="btn btnblack" type='submit'>Aanmelden</button>
     </form>
 
     <script>
         const scriptU = 'https://script.google.com/macros/s/AKfycbxR4uuM0TCkz3TGBupb-wFhIJD-IbwmjvSpATvl/exec'
         const form = document.forms['submit-to-google-sheet2']
 
+        function finish_form(text, response) {
+            document.getElementById("formsubmit").innerHTML = "Aanmelden"
+            alert(text, response)
+        }
+
         form.addEventListener('submit', e => {
             e.preventDefault()
+            document.getElementById("formsubmit").innerHTML = "Een moment..."
             fetch(scriptU, {
                     method: 'POST',
                     body: new FormData(form)
                 })
-                .then(response => alert('Het formulier is succesvol verzonden!', response))
-                .catch(error => alert('Er is iets misgegaan. Het formulier is niet opgestuurt.', error.message))
+                .then(response => finish_form('Het formulier is succesvol verzonden!', response))
+                .catch(error => finish_form('Er is iets misgegaan, sorry! Probeer het opnieuw, misschien in een andere browser? (We werken hieraan) - xxx IT', error.message))
         })
     </script>
