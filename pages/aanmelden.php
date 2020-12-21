@@ -157,7 +157,7 @@
                     method: 'POST',
                     body: new FormData(form)
                 })
-                .then(response => finish_form('Het formulier is succesvol verzonden!', response))
-                .catch(error => finish_form('Er is iets misgegaan, sorry! Probeer het opnieuw, misschien in een andere browser? (We werken hieraan) - xxx IT', error.message))
+                .then(response => finish_form('Het formulier is succesvol verzonden! We streven ernaar je binnen een of uiterlijk twee weken een email te sturen vanuit het bestuur.', response))
+                .catch(error => finish_form('Er is iets misgegaan, sorry! Zou je je browser en besturingssysteem kunnen sturen naar promotie@ensembleproject.nl? Een andere browser gebruiken zou in ieder geval al nu meteen kunnen helpen. Sorry! - xxx IT', error.message))
         })
     </script>
