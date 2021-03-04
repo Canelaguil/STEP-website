@@ -46,7 +46,7 @@
                     <option value="Klarinet">Klarinet</option>
                     <option value="Fagot">Fagot</option>
                     <option value="Trompet">Trompet</option>
-                    <option value="Fagot">Fagot</option>
+                    <option value="Hoorn">Hoorn</option>
                 </optgroup>
                 <optgroup label="Slagwerk en anderen">
                     <option value="Slagwerk">Slagwerk</option>

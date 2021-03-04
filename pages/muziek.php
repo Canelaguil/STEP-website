@@ -1,16 +1,16 @@
 <div class="row hometext mensentitle" id="projecten">
-    <h2>Projecten</h2>
+  <h2>Projecten</h2>
 </div>
 <ul class="collapsible">
-  <li>
-    <div class="collapsible-header"><i class="material-icons">blur_on</i>Step 3</div>
+  <li class="active">
+    <div class="collapsible-header active"><i class="material-icons">blur_on</i>Step 3</div>
     <div class="collapsible-body">
       <div id="concert1" class="row">
         <div class="col s12 m12">
           <div class="card mainmuziek">
             <div class="parallax-container">
               <div class="parallax"><img src="../img/step1.png"></div>
-              <span class="card-title">Milhaud, Venema,<br>Beethoven, Van Bree</span>
+              <span class="card-title">Ravel, Venema,<br>Beethoven, Van Bree</span>
             </div>
             <div class="card-content">
               <div class="row">
@@ -19,14 +19,14 @@
                     <span class="kopjemuziek">
                       Wat <br>
                     </span>
-                    Concert voor Contrabas, Venema (in opdracht)<br>
+                    Een opdrachtcompositie (TBA)<br>
                     La Vallée des Cloches, Ravel<br>
                     Symfonie No. 3 deel 1, Beethoven<br>
                     Allegro voor vier strijkkwartetten, Van Bree<br>
                     <span class="kopjemuziek">
                       Waar <br>
                     </span>
-                    Amsterdam en Tilburg (optie)<br>
+                    Amsterdam en Tilburg<br>
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
@@ -39,17 +39,13 @@
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                    Het volgende project, STEP 3, zal plaatsvinden van februari 2021 
-                    tot mei 2021 met een 40-koppig ensemble van strijkers en blazers. 
-                    Onder leiding van Sjoerd Haver voert STEP twee kamersymfonieën uit
-                    van Milhaud, een alllegro voor vier strijkkwartetten van Van Bree 
-                    en het eerste 
-                    deel van de weergaloze derde symfonie van Beethoven. Hiernaast 
-                    componeert huiscomponist Philip Venema een werk speciaal voor 
-                    dit ensemble met als solo-instrument de contrabas. De première 
-                    zal worden uitgevoerd door solist en bekend contrabassist Sasha 
-                    Witteveen, winnares van een aantal prominente concoursen binnen 
-                    en buiten Nederland. </p>
+                    Het volgende project, STEP 3, zal plaatsvinden van februari 2021 tot april 2021 met een 40-koppig ensemble van 
+                    strijkers en blazers. Onder leiding van Sjoerd Haver voert STEP La Vallée des Cloches uit van Ravel, een Allegro 
+                    voor vier strijkkwartetten van Van Bree en het eerste deel van de weergaloze derde symfonie van Beethoven. Hiernaast 
+                    zal er een opdrachtcompositie uitgevoerd worden ensemble met als solo-instrument de contrabas. De 
+                    première zal worden uitgevoerd door solist en bekend contrabassist Sasha Witteveen, winnares van een aantal prominente 
+                    concoursen binnen en buiten Nederland.
+                  </p>
                 </div>
               </div>
             </div>
@@ -156,7 +152,7 @@
   </li>
 </ul>
 <div class="row hometext mensentitle" id="meerstep">
-    <h2>Nog meer STEP</h2>
+  <h2>Nog meer STEP</h2>
 </div>
 <ul class="collapsible">
   <li class='active'>
@@ -181,25 +177,25 @@
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                  Kleine ensembles vanuit deelnemers uit STEP 1 en STEP 2 participeren aan het Karavaanproject. Een
-                  sociaal project om de door de coronacrisis thuisgebonden ouderen en kwetsbaren bij de
-                  maatschappij te blijven betrekken door het geven van concerten op locaties. Momenteel zijn er twee
-                  concerten geweest waar ook gecomponeerd werk door huiscomponist Philip Venema is gespeeld.
-                  STEP vindt het belangrijk zich jaarlijks te richten tot een kwetsbare groep uit de maatschappij en is
-                  blij een bijdrage aan dit project te leveren.
+                    Kleine ensembles vanuit deelnemers uit STEP 1 en STEP 2 participeren aan het Karavaanproject. Een
+                    sociaal project om de door de coronacrisis thuisgebonden ouderen en kwetsbaren bij de
+                    maatschappij te blijven betrekken door het geven van concerten op locaties. Momenteel zijn er twee
+                    concerten geweest waar ook gecomponeerd werk door huiscomponist Philip Venema is gespeeld.
+                    STEP vindt het belangrijk zich jaarlijks te richten tot een kwetsbare groep uit de maatschappij en is
+                    blij een bijdrage aan dit project te leveren.
                   </p>
                 </div>
               </div>
             </div>
-              <div class="card-action muziekknoppen">
-                <a class="" target="_blank" href="http://www.stichtingdeboshalte.nl/buitenveldertse-karavaan/">Meer informatie</a>
+            <div class="card-action muziekknoppen">
+              <a class="" target="_blank" href="http://www.stichtingdeboshalte.nl/buitenveldertse-karavaan/">Meer informatie</a>
               <!-- <a id="koop" target="_blank" class="disabled" href="#">Koop tickets</a> -->
-              </div> 
+            </div>
           </div>
         </div>
       </div>
   </li>
-  <li >
+  <li>
     <div class="collapsible-header"><i class="material-icons">blur_on</i>Step op het Amstelveld</div>
     <div class="collapsible-body">
       <div id="concert1" class="row">
@@ -275,8 +271,8 @@
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                    STEP speelde juni 2019 mee op het Tjaikovsky bal, in een programma dat ook muziek en dans 
-                    bevatte van o.a. het Concertgebouw Kamerorkest en de Junior Company van het Nationaal Ballet. 
+                    STEP speelde juni 2019 mee op het Tjaikovsky bal, in een programma dat ook muziek en dans
+                    bevatte van o.a. het Concertgebouw Kamerorkest en de Junior Company van het Nationaal Ballet.
                   </p>
                 </div>
               </div>

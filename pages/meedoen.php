@@ -1,7 +1,8 @@
 <div class="row hometext meedoenblock">
     <h4>Meedoen</h4>
     <p class="textblack">STEP nodigt momenteel de muzikanten persoonlijk uit. Wil je ook meedoen?
-        Schrijf je dan <emph>voor 11 januari</emph> in met het formulier.
+        Schrijf je dan in via het formulier!
+
         De ledencontributie is 50 euro.</p>
 </div>
 
@@ -11,7 +12,7 @@
 
 <div class="row hometext meedoenblock">
     <h4>Repetitiedata</h4>
-    <p class="textblack">Er wordt gerepeteerd in de weekenden van februari - april 2021. De precieze repetitiedata verschillen
+    <p class="textblack">De repetities vinden plaats in juni 2021. De precieze repetitiedata verschillen
         tussen strijkers en blazers, en kunnen gevonden worden in <a target="__blank" href=<?php echo $repetitiedata; ?>>dit document.</a>
     </p>
 </div>
