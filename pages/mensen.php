@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <div class="col m4 s12">
+    <!-- <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
                 <img class="activator" src="../img/mensen/clara.jpg">
@@ -150,7 +150,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="row hometext mensentitle" id="dircomp">

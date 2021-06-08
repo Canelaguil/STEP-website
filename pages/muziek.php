@@ -46,9 +46,11 @@
                   <p class="textmuziek">
                     Onder leiding van Sjoerd Haver voert STEP La Vallée des Cloches uit van Ravel, een Allegro 
                     voor vier strijkkwartetten van Van Bree en het eerste deel van de weergaloze derde symfonie van Beethoven. Hiernaast 
-                    zal er een opdrachtcompositie uitgevoerd worden ensemble met als solo-instrument de contrabas. De 
-                    première zal worden uitgevoerd door solist en bekend contrabassist Sasha Witteveen, winnares van een aantal prominente 
-                    concoursen binnen en buiten Nederland.
+                    wordt een opdrachtcompositie uitgevoerd van Aristide Moari, met als solo-instrument de contrabas. Deze
+                    wereldpremière zal worden uitgevoerd door solist en bekend contrabassist Sasha Witteveen, winnares van een aantal prominente 
+                    concoursen binnen en buiten Nederland.<br><br>
+                    <b>Over Aristide Moari</b><br>
+                    Aristide Moari (1993) is een jonge Franse componist, pianist en dirigent. Hij studeerde Écriture Musicale aan het Conservatoire National Supérieur de Paris. Daarna studeerde hij orkestdirectie en piano aan het Conservatorium van Amsterdam. Hij houdt zich bezig met een breed scala aan muzikale stijlen. Sinds de coronapandemie werkt hij aan een serie korte composities, de Friday Compositions. Hierbij geeft hij aan vele instrumenten een podium met een korte solominiatuur. Hij schreef onder andere al voor piano, contrabas en basklarinet. Nu schrijft hij speciaal voor dit project van STEP een contrabasconcert!
                   </p>
                 </div>
               </div>
