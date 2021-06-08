@@ -129,7 +129,7 @@
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Clara Martens Avila</span>
-                <p class="activator">Promotie<i class="material-icons">chevron_right</i></p>
+                <p class="activator">Website<i class="material-icons">chevron_right</i></p>
             </div>
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Clara Martens Avila<i class="material-icons right">close</i></span>

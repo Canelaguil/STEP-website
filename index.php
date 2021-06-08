@@ -193,7 +193,7 @@ Stichting Ensemble Project (STEP) biedt muzikanten de mogelijkheid orkestwerken 
         </div>
         <div class="footer-copyright fbar2">
             <div class="container">
-                © 2020 Stichting Ensemble Project
+                © 2020 Stichting Ensemble Project, website gemaakt door <a class="grey-text text-lighten-3" target='__blank' href='https://claramavila.nl/'>Clara Martens Avila</a>
             </div>
         </div>
     </footer>

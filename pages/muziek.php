@@ -19,28 +19,32 @@
                     <span class="kopjemuziek">
                       Wat <br>
                     </span>
-                    Een opdrachtcompositie (TBA)<br>
                     La Vallée des Cloches, Ravel<br>
-                    Symfonie No. 3 deel 1, Beethoven<br>
+                    Winds, Venema<br>
+                    Symfonie No. 3: Eroïca, deel 1, Beethoven<br>
                     Allegro voor vier strijkkwartetten, Van Bree<br>
+                    Buddha’s Birth, Moari<br>
                     <span class="kopjemuziek">
                       Waar <br>
                     </span>
-                    Amsterdam en Tilburg<br>
+                    Jheronimus Bosch Art Center, Den Bosch<br>
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    April 2021 <br>
+                    3 juli <br>
                     <span class="kopjemuziek">
                       Solist <br>
                     </span>
                     Sasha Witteveen <br>
+                    <span class="kopjemuziek">
+                      O.l.v.<br>
+                    </span>
+                    Sjoerd Haver <br>
                   </p>
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                    Het volgende project, STEP 3, zal plaatsvinden van februari 2021 tot april 2021 met een 40-koppig ensemble van 
-                    strijkers en blazers. Onder leiding van Sjoerd Haver voert STEP La Vallée des Cloches uit van Ravel, een Allegro 
+                    Onder leiding van Sjoerd Haver voert STEP La Vallée des Cloches uit van Ravel, een Allegro 
                     voor vier strijkkwartetten van Van Bree en het eerste deel van de weergaloze derde symfonie van Beethoven. Hiernaast 
                     zal er een opdrachtcompositie uitgevoerd worden ensemble met als solo-instrument de contrabas. De 
                     première zal worden uitgevoerd door solist en bekend contrabassist Sasha Witteveen, winnares van een aantal prominente 
@@ -246,7 +250,7 @@
       </div>
   </li>
   <li>
-    <div class="collapsible-header"><i class="material-icons">blur_on</i>Step op het Tjaikovsky bal</div>
+    <div class="collapsible-header"><i class="material-icons">blur_on</i>Step op het Tchaikovsky bal</div>
     <div class="collapsible-body">
       <div id="concert1" class="row">
         <div class="col s12 m12">
@@ -258,7 +262,7 @@
                     <span class="kopjemuziek">
                       Wat <br>
                     </span>
-                    Serenade voor Strijkers, Tjaikovsky<br>
+                    Serenade voor Strijkers, Tchaikovsky<br>
                     <span class="kopjemuziek">
                       Waar <br>
                     </span>
@@ -271,7 +275,7 @@
                 </div>
                 <div class="col muziekcol s12 m6">
                   <p class="textmuziek">
-                    STEP speelde juni 2019 mee op het Tjaikovsky bal, in een programma dat ook muziek en dans
+                    STEP speelde juni 2019 mee op het Tchaikovsky bal, in een programma dat ook muziek en dans
                     bevatte van o.a. het Concertgebouw Kamerorkest en de Junior Company van het Nationaal Ballet.
                   </p>
                 </div>
