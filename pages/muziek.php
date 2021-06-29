@@ -31,7 +31,7 @@
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    3 juli <br>
+                    3 juli, 20:15<br>
                     <span class="kopjemuziek">
                       Solist <br>
                     </span>
