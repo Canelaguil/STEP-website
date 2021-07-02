@@ -13,6 +13,7 @@
         <ul class='docslist'>
             <li><a target='__blank' href=<?php echo $privacyvoorwaarden; ?>>Privacy Policy</a></li>
             <li><a target='__blank' href='./files/beleidsplan.pdf'>Beleidsplan</a></li>
+            <li><a target='__blank' href='./files/jaarrekening2020.pdf'>STEP Jaarrekening 2020</a></li>
         </ul>
     </p>
 
