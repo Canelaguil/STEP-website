@@ -1,0 +1,125 @@
+.cardimage {
+    height: 300px;
+    overflow: hidden !important;
+    display:flex;
+    align-items: center;
+
+    img {
+        height: 100%;
+        max-width: none !important;
+        align-self: center;
+        filter: grayscale(100%);
+        &:hover {
+            cursor: $cursorurl2, auto !important;
+            filter: grayscale(20%);
+        }
+    }
+}
+
+.mensentitle {
+    h2 {
+        padding: 4px;
+        padding-left: 16px;
+        font-family: $titlefont;
+        font-size: 3em;
+        text-align: left !important; 
+        margin-bottom: 0px;
+        @media only screen and (max-width: 500px) {
+            word-break: break-all !important;
+        }
+    }
+}
+
+.blackbox {
+    background-color: $black;
+    padding: 12px !important; 
+    width: 100%; 
+}
+
+.mensenlinks {
+    ul {
+        text-shadow: 1px 1px 1px #aaa;
+        li {
+            &:hover {
+                cursor: $cursorurl2, auto !important;
+                text-shadow: none;
+            }
+        }
+    }
+}
+
+.cardfunctie {
+    font-family: $font;
+    font-weight: lighter;
+     p {
+            color: $black;
+            font-weight: bold;
+         i {
+             vertical-align: middle !important;
+         }
+     }
+    &:hover {
+        text-shadow: 1px 1px 1px #aaa;
+        p {
+            cursor: url('../img/cursor_link2.png'), auto !important;
+        }
+        
+    }
+}
+
+.cardtextact {
+    font-family: $font;
+    span {
+        font-weight: lighter;
+    }
+    p {
+        font-size: 1em;
+        text-align: left; 
+        margin: 8px 0;
+        margin-bottom: 12px;
+    }
+}
+
+.card-action {
+    a {
+        color: $red !important;
+        font-family: $font;
+        
+    }
+}
+
+.flipsjoerdimg {
+    filter: grayscale(100%);
+
+    span {
+        font-family: $font !important;
+        font-weight: bold !important;
+        text-shadow: 2px 2px 2px $black;
+        // background-color: $black;
+    }
+
+    &:hover {
+        filter: grayscale(10%);
+        cursor: $cursorurl2, auto !important;
+    }
+}
+
+.spcontent  {
+    p {
+        font-family: $font;
+        font-weight: lighter; 
+        i {
+            vertical-align: middle !important;
+        }
+    }
+}
+
+.aanbevelinglijst {
+    li {
+        font-family: $font; 
+        font-size: 1.5em;
+    }
+
+    margin-bottom: 60px;
+
+}

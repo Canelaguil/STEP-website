@@ -1,0 +1,22 @@
+{% load static %}
+{% load website.website_extras %}
+<div class="col m4 s12">
+    <div class="card">
+        <div class="cardimage waves-effect waves-block waves-light">
+            <img class="activator" src={{'website/adminuploads/people/'|addstr:bm.img}}>
+        </div>
+        <div class="card-content cardfunctie">
+            <span class="card-title activator">{{bm.name}}</span>
+            <p class="activator">{{bm.function}}<i class="material-icons">chevron_right</i></p>
+        </div>
+        <div class="card-reveal cardtextact">
+            <span class="card-title grey-text text-darken-4">{{bm.name}}<i class="material-icons right">close</i></span>
+            <p>{{bm.description}}</p>
+            <div class="card-action">
+                <a href="mailto:{{bm.email}}">Email</a>
+                <a href="https://www.linkedin.com/in/booijwouter/">Linkedin</a>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,25 @@
+.meedoenblock {
+    h4 {
+        @include standardtext(2.6em);
+        font-weight: bolder;
+
+    }
+    p {
+        text-align: left !important;
+        a {
+            color: $red ;
+            .disabled {
+                color: $grey !important; 
+            }
+        }
+    }
+}
+
+.lastblock {
+    padding-bottom: 60px;
+}
+
+.doneerblok {
+    padding-top: 36px;
+    margin-bottom: 34vh !important;
+}

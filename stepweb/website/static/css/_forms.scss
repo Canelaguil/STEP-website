@@ -1,0 +1,108 @@
+/* label color */
+.input-field label {
+  color: #000;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus + label,
+.input-field input[type="email"]:focus + label,
+.input-field input[type="tel"]:focus + label,
+.input-field input[type="number"]:focus + label,
+.input-field textarea:focus + label {
+  color: #000 !important;
+}
+
+.input-field input[type="text"]:hover,
+.input-field input[type="email"]:hover,
+.input-field input[type="tel"]:hover,
+.input-field input[type="number"]:hover,
+.input-field textarea:hover {
+  cursor: url("../img/cursor_edit2.png"), auto !important;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus,
+.input-field input[type="email"]:focus,
+.input-field input[type="tel"]:focus,
+.input-field input[type="number"]:focus,
+.input-field textarea:focus {
+  border-bottom: 1px solid #000 !important;
+  color: black !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+  cursor: url("../img/cursor_edit2.png"), auto !important;
+}
+
+/* valid color */
+.input-field input[type="text"].valid,
+.input-field input[type="email"].valid,
+.input-field input[type="tel"].valid,
+.input-field input[type="number"].valid,
+.input-field textarea.valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+  &:hover {
+    cursor: url("../img/cursor_edit2.png"), auto !important;
+  }
+}
+
+[type="radio"]:checked + label:after {
+  color: $red !important;
+  background-color: $red !important;
+  border-color: $red !important;
+}
+
+.repetitietext {
+  text-align: left !important;
+  .formtext {
+    color: black !important;
+    text-align: left !important;
+    font-size: 1em !important;
+  }
+}
+
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+  &:hover {
+    cursor: url("../img/cursor_edit2.png"), auto !important;
+  }
+}
+
+.toelichtingcontainer {
+  margin-top: 0px !important;
+  .toelichtingbox {
+    padding-top: 0px !important;
+    top: 0 !important;
+  }
+}
+
+.selectoptions {
+  color: $black !important;
+}
+
+.privacytekst{
+  font-size: 1em !important;
+  color: rgb(133, 117, 117);
+  a {
+    color: $red !important;
+  }
+}
+
+.formblok {
+  padding-bottom: 2em;
+  color: black !important;
+}
+
+// [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+//   position: absolute;
+//   opacity: 1;
+//   pointer-events: auto;
+// }
+
+form {
+  font-family: $font;
+  label {
+    font-family: $font;
+  }
+}

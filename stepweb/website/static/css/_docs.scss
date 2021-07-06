@@ -1,0 +1,24 @@
+.docslist {
+    // margin: 0 auto !important; 
+    li {
+        list-style-type: square !important;
+        list-style-position: inside;
+        // text-align: left !important;
+        a {
+            color: $red !important;
+            font-size: $psize;
+            font-family: $font;
+            &:hover {
+                cursor: $cursorurl2, auto !important;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.infolist {
+    li {
+        // text-align: left !important;
+        font-size: $psize;
+    }
+}
