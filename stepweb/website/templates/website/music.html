@@ -1,0 +1,45 @@
+{% extends "website/index.html" %} 
+
+{% block content %}
+
+<div class="row hometext mensentitle" id="projecten">
+  <h2>Projecten</h2>
+</div>
+
+<ul class="collapsible">
+    {% if main %}
+        {% for p in main %}
+            {% if p.active %}
+                <li class='active'>
+            {% else %}
+                <li>
+            {% endif %}
+            {% include 'website/project.html' %}
+        </li>
+        {% endfor %}
+    {% endif %}
+</ul>
+
+<div class="row hometext mensentitle" id="meerstep">
+  <h2>Nog meer STEP</h2>
+</div>
+
+<ul class="collapsible">
+    {% if main %}
+        {% for p in side %}
+            {% if p.active %}
+                <li class='active'>
+            {% else %}
+                <li>
+            {% endif %}
+            {% include 'website/project.html' %}
+        </li>
+        {% endfor %}
+    {% endif %}
+</ul>
+
+<div class="row hometext" id="projecten">
+
+</div>
+
+{% endblock %}

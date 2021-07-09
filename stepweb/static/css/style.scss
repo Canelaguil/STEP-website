@@ -5,6 +5,8 @@ $abalonegrey: #D6CFC7;
 $menupadding: 12px;
 $boxwidth: 1000px;
 $size: 3px;
+$cursorurl: url('static/img/cursor23.png');
+$cursorurl2: url('../img/cursor22.png'); 
 
 @import "./textandbuttons";
 @import "./home";
@@ -17,25 +19,25 @@ $size: 3px;
 
 html {
     min-height: 100% !important;
-    cursor: url('../img/cursor23.png'), auto !important;
+    cursor: $cursorurl, auto !important;
 }
 
 body {
     background: white;
     min-height: 100% !important;
-    cursor: url('../img/cursor23.png'), auto !important;
+    cursor: $cursorurl, auto !important;
 }
 
 img {
-    cursor: url('../img/cursor23.png'), auto !important;
+    cursor: $cursorurl, auto !important;
     &:hover {
-        cursor: url('../img/cursor23.png'), auto !important;
+        cursor: $cursorurl, auto !important;
     }
 }
 
 a {
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
     }
 
     .disbled {
@@ -44,9 +46,9 @@ a {
 }
 
 span {
-    cursor: url('../img/cursor23.png'), auto !important;
+    cursor: $cursorurl, auto !important;
     &:hover {
-        cursor: url('../img/cursor23.png'), auto !important;
+        cursor: $cursorurl, auto !important;
     }
 }
 

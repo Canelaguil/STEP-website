@@ -20,6 +20,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATIC_URL = '/static/'
 STATIC = os.path.join(BASE_DIR, "static")
 
+MEDIA_URL = '/adminuploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "adminuploads")
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
@@ -30,6 +33,11 @@ SECRET_KEY = 'joxshpgeoda8m_77jth7mwj=6))srcy#9a3sshm5@-b##^&lb1'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+# GLOBAL VARS
+PRIVACY_URL = 'https://docs.google.com/document/d/1tK6jWpbPAzJ2IYK1tcwfezX6kWttIhSmkZ3zZVDPsJg/edit?usp=sharing'
+REPETITIE_DATA = "https://docs.google.com/document/d/1BPUOJxAEV8xaTaMXgstGWr59q2NmgJoKPSjnOE6nBxM/edit?usp=sharing"
+
 
 
 # Application definition

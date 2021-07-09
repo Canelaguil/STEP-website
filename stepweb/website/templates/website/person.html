@@ -1,22 +1,43 @@
 {% load static %}
 {% load website.website_extras %}
-<div class="col m4 s12">
-    <div class="card">
-        <div class="cardimage waves-effect waves-block waves-light">
-            <img class="activator" src={{'website/adminuploads/people/'|addstr:bm.img}}>
-        </div>
-        <div class="card-content cardfunctie">
-            <span class="card-title activator">{{bm.name}}</span>
-            <p class="activator">{{bm.function}}<i class="material-icons">chevron_right</i></p>
-        </div>
-        <div class="card-reveal cardtextact">
-            <span class="card-title grey-text text-darken-4">{{bm.name}}<i class="material-icons right">close</i></span>
-            <p>{{bm.description}}</p>
-            <div class="card-action">
-                <a href="mailto:{{bm.email}}">Email</a>
-                <a href="https://www.linkedin.com/in/booijwouter/">Linkedin</a>
-            </div>
-        </div>
 
+<div class="card">
+    <div class="cardimage waves-effect waves-block waves-light">
+        <img class="activator" src="{{bm.img.url}}">
+    </div>
+    <div class="card-content cardfunctie">
+        <span class="card-title activator">{{bm.name}}</span>
+        <p class="activator">{{bm.function}}<i class="material-icons">chevron_right</i></p>
+    </div>
+    <div class="card-reveal cardtextact">
+        <span class="card-title grey-text text-darken-4">{{bm.name}}<i class="material-icons right">close</i></span>
+        <p>{{bm.description}}</p>
+        <div class="card-action">
+            <a href="mailto:{{bm.email}}">Email</a>
+            <a href="https://www.linkedin.com/in/booijwouter/">Linkedin</a>
+        </div>
     </div>
 </div>
+
+
+{% comment %} <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image flipsjoerdimg">
+                <img class="activator" src="../img/mensen/philip.jpeg">
+                <span class="card-title">Huiscomponist</span>
+            </div>
+            <div class="card-content spcontent activator">
+                <p>Philip Venema <i class="material-icons">chevron_right</i></p>
+            </div>
+            <div class="card-reveal cardtextact">
+                <span class="card-title grey-text text-darken-4">Philip Venema<i class="material-icons right">close</i></span>
+                <p>
+                    Philip Venema is geboren in 1995 in Amsterdam. Hij is al vanaf jonge leeftijd bezig met muziek. Naast dat hij piano, drums en gitaar leerde spelen, was zijn voornaamste focus de viool. Eerst had hij privéles bij Robert Oskam, violist bij het Nederlands Philharmonisch Orkest, later bij Sjanneke Laghuwitz. Ook had hij al vroeg interesse in componeren, wat hij dan ook steeds meer is gaan doen, voor verschillende instrumenten en ensembles. Op zijn achttiende schreef hij zijn eerste symfonie die hij uitvoerde met een hiervoor opgericht orkest. Dit was voor hem een bijzondere ervaring, die hem deed besluiten componist te worden. Na het afsluiten van de middelbare school had hij les bij Klaas ten Holt. In 2017 begon hij zijn studie aan het Koninklijk Conservatorium Den Haag, waar hij nu lessen volgt bij Martijn Padding en Calliope Tsoupaki. Sinds de oprichting van STEP in maart 2019 is Philip de huiscomponist. Hij heeft bij elk van de afgelopen twee projecten een opdrachtcompositie geschreven.                
+                </p>
+                <div class="card-action">
+                    <a href="mailto:philipvenema@hotmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/philip-venema-1223a919b/">Linkedin</a>
+                </div>
+            </div>
+        </div>
+    </div> {% endcomment %}

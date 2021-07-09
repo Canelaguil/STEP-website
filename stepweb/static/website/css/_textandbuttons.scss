@@ -17,13 +17,13 @@ $titlefont: 'Montserrat Subrayada', sans-serif;
     padding-bottom: 10px;
     height: 42px;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
     }
 }
 
 a {
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
     }
 }
 @mixin titlelink {
@@ -71,7 +71,7 @@ h3 {
     background: $black !important;
     color: white !important;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
         background: $abalonegrey !important;
         color: $black !important;
     }
@@ -82,7 +82,7 @@ h3 {
     background: $red !important;
     color: white !important;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
         background: $black !important;
     }
 }
@@ -92,7 +92,7 @@ h3 {
     background: white !important;
     color: $black !important;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
         background: $abalonegrey !important;
     }
 }
@@ -107,7 +107,7 @@ h3 {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
         text-shadow: none !important;
         background: transparent; 
     }
@@ -130,4 +130,8 @@ h3 {
     font-weight: bold;
     text-align: center !important;
     word-break: break-all !important;
+}
+
+.projecthead {
+    font-family: $font !important;
 }

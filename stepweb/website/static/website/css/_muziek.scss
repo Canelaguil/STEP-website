@@ -1,0 +1,76 @@
+.parallax-container {
+    z-index: 50 !important; 
+    height: 200px;
+
+    .card-title {
+        background-color: $black;
+        color: white;
+        font-family: $font; 
+        font-weight: bolder;
+        font-size: 2.3em;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        
+        @media only screen and (max-width: 900px) {
+            top: 50%;
+        }
+
+    }
+}
+
+.parallax {
+    margin: 0 auto !important; 
+    img {
+        max-width: $boxwidth / 2 !important;
+    }
+
+}
+
+.muziekcol {
+    margin-top: 6px !important;
+}
+
+.muziekknoppen {
+    text-align: right; 
+
+    #koop {
+        font-weight: bold; 
+        font-size: 16px;
+    }
+}
+
+.mainmuziek {
+    .card-content {
+        z-index: 75;
+    }
+}
+
+.textmuziek {
+    text-align: left !important;
+    font-family: $font;
+    font-size: 1em !important; 
+
+    .warning {
+        font-size: 1.4em !important;
+        margin-bottom: 6px !important;
+    }
+
+    .kopjemuziek {
+        font-weight: bold;
+        margin-top: 6px;
+    }
+}
+
+
+.collapsible-body {
+    padding: 6px; 
+}
+
+.collapsible-header {
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+    }
+}

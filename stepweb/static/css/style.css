@@ -157,7 +157,7 @@ body, html, main {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../img/hero.jpg");
+  background-image: url("static/img/hero.jpg");
   /* Set a specific height */
   height: 600px;
   width: 100%;
@@ -780,21 +780,21 @@ form label {
 
 html {
   min-height: 100% !important;
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 body {
   background: white;
   min-height: 100% !important;
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 img {
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 img:hover {
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 a:hover {
@@ -806,11 +806,11 @@ a .disbled {
 }
 
 span {
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 span:hover {
-  cursor: url("../img/cursor23.png"), auto !important;
+  cursor: url("static/img/cursor23.png"), auto !important;
 }
 
 .containedrow {

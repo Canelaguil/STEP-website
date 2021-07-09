@@ -1,0 +1,64 @@
+ 
+ {% if p.alt %}
+    <div class="collapsible-header projecthead"><i class="material-icons">blur_on</i>{{p.alt}}</div>
+ {% else %}
+    <div class="collapsible-header projecthead"><i class="material-icons">blur_on</i>{{p.titel}}</div>
+ {% endif %}
+    <div class="collapsible-body">
+      <div id="concert1" class="row">
+        <div class="col s12 m12">
+          <div class="card mainmuziek">
+          {% if p.img %}
+                <div class="parallax-container">
+                    <div class="parallax"><img src="{{p.img.url}}"></div>
+                    <span class="card-title">{{p.titel}}</span>
+                </div>
+            {% endif %}
+            <div class="card-content">
+              <div class="row">
+                <div class="col muziekcol s12 m6">
+                  <p class="textmuziek">
+                    <span class="kopjemuziek">
+                      Wat <br>
+                    </span>
+                    {{p.what | safe}}<br>
+                    <span class="kopjemuziek">
+                      Waar <br>
+                    </span>
+                    {{p.where}}<br>
+                    <span class="kopjemuziek">
+                      Wanneer <br>
+                    </span>
+                    {{p.when}}<br>
+                    {% if p.solist %}
+                        <span class="kopjemuziek">
+                        Solist <br>
+                        </span>
+                        {{p.solist}} <br>
+                    {% endif %}
+                    {% if p.dirigent %}
+                        <span class="kopjemuziek">
+                        O.l.v.<br>
+                        </span>
+                        {{p.dirigent}} <br>
+                    {% endif %}
+                  </p>
+                </div>
+                <div class="col muziekcol s12 m6">
+                  <p class="textmuziek">
+                  {{p.description | safe}}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-action muziekknoppen">
+                {% if p.url1 %}
+                    <a id="koop" target="_blank" class="" href="{{p.url1}}">{{p.label1}}</a>
+                {% endif %}
+                {% if p.url2%}
+                    <a id="koop" target="_blank" class="" href="{{p.url2}}">{{p.label2}}</a>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>

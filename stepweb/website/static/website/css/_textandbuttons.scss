@@ -1,0 +1,137 @@
+$psize: 1.5em;
+$font: 'Montserrat', sans-serif;
+$titlefont: 'Montserrat Subrayada', sans-serif;
+
+
+@mixin standardtext($fontsize) {
+    text-align: center;
+    font-family: $font;
+    font-size: $fontsize;
+}
+
+@mixin buttonbasics {
+    text-transform: uppercase;
+    font-family: $titlefont !important;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 42px;
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+    }
+}
+
+a {
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+    }
+}
+@mixin titlelink {
+    font-family: $titlefont;
+}
+
+h1 {
+    @include standardtext(3em);
+    color: $black;
+    font-weight: bolder;
+    margin: 12px;
+}
+
+h2 {
+    @include titlelink();
+    color: $black;
+    margin: 0px !important;
+    margin-top: 8px !important;
+}
+
+h3 {
+    @include standardtext(2em);
+    font-weight: lighter;
+    margin: 6px;
+}
+
+
+
+.textblack {
+    @include standardtext($psize);
+    color: $black;
+    background: white;
+}
+
+.textwhite {
+    @include standardtext($psize);
+    color: white; 
+    background: $black;
+    width: 100%; 
+    margin-bottom: 12px;
+}
+
+.btnblack {
+    @include buttonbasics();
+    background: $black !important;
+    color: white !important;
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+        background: $abalonegrey !important;
+        color: $black !important;
+    }
+}
+
+.btnred {
+    @include buttonbasics();
+    background: $red !important;
+    color: white !important;
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+        background: $black !important;
+    }
+}
+
+.btnwhite {
+    @include buttonbasics();
+    background: white !important;
+    color: $black !important;
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+        background: $abalonegrey !important;
+    }
+}
+
+.btntransparent {
+    @include buttonbasics();
+    color: $black !important;
+    background: transparent;
+    text-shadow:2px 2px 2px #aaa;
+    display: inline-block;
+    vertical-align: center;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    &:hover {
+        cursor: $cursorurl2, auto !important;
+        text-shadow: none !important;
+        background: transparent; 
+    }
+}
+
+.warning {
+    background-color: $red;
+    color: white; 
+    font-family: $font;
+    font-weight: bolder; 
+}
+
+.ondertitel {
+    font-size: 0.8em !important; 
+}
+
+.error404 {
+    font-size: 25em !important;
+    font-family: $titlefont;
+    font-weight: bold;
+    text-align: center !important;
+    word-break: break-all !important;
+}
+
+.projecthead {
+    font-family: $font !important;
+}

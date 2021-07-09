@@ -6,7 +6,7 @@
         font-size: 2em !important;
         padding: 6px; 
         &:hover {
-            cursor: url('../img/cursor22.png'), auto !important;
+            cursor: $cursorurl2, auto !important;
             text-shadow: 2px 2px 2px #aaa;
         }
 
@@ -81,7 +81,7 @@
     max-height:100%;
     padding: $menupadding;
     &:hover {
-        cursor: url('../img/cursor22.png'), auto !important;
+        cursor: $cursorurl2, auto !important;
         // box-shadow: 2px 2px 2px #aaa;
          -webkit-filter: drop-shadow(4px 4px 4px #aaa);
         // filter: url(#drop-shadow);
@@ -135,7 +135,7 @@
         font-size: 1em !important;
         li {
             &:hover {
-                cursor: url('../img/cursor22.png'), auto !important;
+                cursor: $cursorurl2, auto !important;
                 text-shadow: none;
             }
         }
