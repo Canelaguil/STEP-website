@@ -1,5 +1,5 @@
 a:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 h1 {
@@ -56,11 +56,11 @@ h3 {
 }
 
 .btnblack:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .btnblack:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   background: #D6CFC7 !important;
   color: #222021 !important;
 }
@@ -77,11 +77,11 @@ h3 {
 }
 
 .btnred:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .btnred:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   background: #222021 !important;
 }
 
@@ -97,11 +97,11 @@ h3 {
 }
 
 .btnwhite:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .btnwhite:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   background: #D6CFC7 !important;
 }
 
@@ -122,11 +122,11 @@ h3 {
 }
 
 .btntransparent:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .btntransparent:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   text-shadow: none !important;
   background: transparent;
 }
@@ -154,10 +154,10 @@ body, html, main {
   height: 100%;
 }
 
-/* The hero image */
+* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("static/img/hero.jpg");
+  background-image: url("/static/img/hero.jpg");
   /* Set a specific height */
   height: 600px;
   width: 100%;
@@ -229,7 +229,7 @@ body, html, main {
 }
 
 .menulink a:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   text-shadow: 2px 2px 2px #aaa;
 }
 
@@ -309,7 +309,7 @@ body, html, main {
 }
 
 .steplogo:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   -webkit-filter: drop-shadow(4px 4px 4px #aaa);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -428,7 +428,7 @@ body, html, main {
 }
 
 .cardimage img:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   -webkit-filter: grayscale(20%);
           filter: grayscale(20%);
 }
@@ -482,7 +482,7 @@ body, html, main {
 }
 
 .cardfunctie:hover p {
-  cursor: url("../img/cursor_link2.png"), auto !important;
+  cursor: url("/static/img/cursor_link2.png"), auto !important;
 }
 
 .cardtextact {
@@ -510,10 +510,10 @@ body, html, main {
           filter: grayscale(100%);
 }
 
-.flipsjoerdimg span {
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: bold !important;
-  text-shadow: 2px 2px 2px #222021;
+.flipsjoerdimg:hover {
+  -webkit-filter: grayscale(10%);
+          filter: grayscale(10%);
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .flipsjoerdimg:hover {
@@ -611,7 +611,7 @@ body, html, main {
 }
 
 .collapsible-header:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
 }
 
 .meedoenblock h4 {
@@ -654,7 +654,7 @@ body, html, main {
 }
 
 .docslist li a:hover {
-  cursor: url("../img/cursor22.png"), auto !important;
+  cursor: url("/static/img/cursor22.png"), auto !important;
   text-decoration: underline;
 }
 
@@ -740,7 +740,7 @@ body, html, main {
 }
 
 .input-field input[type="text"].invalid:hover {
-  cursor: url("../img/cursor_edit2.png"), auto !important;
+  cursor: url("/static/img/cursor_edit2.png"), auto !important;
 }
 
 .toelichtingcontainer {
@@ -780,7 +780,7 @@ form label {
 
 html {
   min-height: 100% !important;
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("/static/img/cursor23.png"), auto !important;
 }
 
 body {
