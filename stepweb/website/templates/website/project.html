@@ -1,8 +1,8 @@
  
  {% if p.alt %}
-    <div class="collapsible-header projecthead"><i class="material-icons">blur_on</i>{{p.alt}}</div>
+ <div class="collapsible-header  {% if p.active %} active {% endif %} projecthead"><i class="material-icons">blur_on</i>{{p.alt}}</div>
  {% else %}
-    <div class="collapsible-header projecthead"><i class="material-icons">blur_on</i>{{p.titel}}</div>
+    <div class="collapsible-header   {% if p.active %} active {% endif %} projecthead"><i class="material-icons">blur_on</i>{{p.titel}}</div>
  {% endif %}
     <div class="collapsible-body">
       <div id="concert1" class="row">
