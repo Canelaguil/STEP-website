@@ -10,12 +10,12 @@
     <a href="/aanmelden" class="btn btnblack ">Aanmeldingsformulier</a>
 </div>
 
-<div class="row hometext meedoenblock">
+<!-- <div class="row hometext meedoenblock">
     <h4>Repetitiedata</h4>
     <p class="textblack">De repetities vinden plaats in juni 2021. De precieze repetitiedata verschillen
         tussen strijkers en blazers, en kunnen gevonden worden in <a target="__blank" href=<?php echo $repetitiedata; ?>>dit document.</a>
     </p>
-</div>
+</div> -->
 
 <div class="row hometext meedoenblock lastblock">
     <h4>Concerten</h4>

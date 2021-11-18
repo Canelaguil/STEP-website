@@ -31,7 +31,7 @@
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    3 juli, 20:15<br>
+                    3 juli 2021, 20:15<br>
                     <span class="kopjemuziek">
                       Solist <br>
                     </span>
@@ -77,7 +77,7 @@
             </div>
             <div class="card-content">
               <p class="textmuziek">
-                <span class="warning">Dit concert is geannuleerd i.v.m. de coronacrisis. We kijken nog of het verplaatst kan worden.</span><br>
+                <span class="warning">Dit concert is geannuleerd i.v.m. de coronacrisis.</span><br>
               </p>
               <div class="row">
                 <div class="col muziekcol s12 m6">
@@ -140,7 +140,7 @@
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    Zondag 10 maart 2019, 15:00 <br>
+                    10 maart 2019, 15:00 <br>
                   </p>
                 </div>
                 <div class="col muziekcol s12 m6">
@@ -231,8 +231,7 @@
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    Zondag 13 september 2020 <br>
-                    18:45
+                    13 september 2020, 18:45
                   </p>
                 </div>
                 <div class="col muziekcol s12 m6">
@@ -274,7 +273,7 @@
                     <span class="kopjemuziek">
                       Wanneer <br>
                     </span>
-                    Zaterdag 15 juni 2019 <br>
+                    15 juni 2019 <br>
                   </p>
                 </div>
                 <div class="col muziekcol s12 m6">
