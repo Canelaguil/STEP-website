@@ -38,6 +38,10 @@ def docs(request):
     cntxt = {}
     return render(request, 'website/docs.html', cntxt)
 
+def construction(request):
+    cntxt = {}
+    return render(request, 'website/construction.html', cntxt)
+
 def index(request): 
     h = Home.objects.first()
     cntxt = {

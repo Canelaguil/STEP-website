@@ -1,0 +1,179 @@
+.menulink {
+    
+    a {
+        @include titlelink();
+        color: $black !important;
+        font-size: 2em !important;
+        padding: 6px; 
+        &:hover {
+            cursor: url('../img/cursor22.png'), auto !important;
+            text-shadow: 2px 2px 2px #aaa;
+        }
+
+        .active {
+            text-shadow: 2px 2px 2px $red;
+        }
+        
+    }
+
+    @media only screen and (max-width: 900px) {
+        text-align: center !important;
+        a {
+            font-size: 1.2em !important;
+            text-overflow: inherit !important;
+        }
+    }
+}
+
+.lowermenu {
+    width: 100% !important;
+}
+
+.navcols {
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.colmenuright {
+    height: 100%; 
+    padding: $menupadding !important;
+    padding-bottom: $menupadding !important;
+    padding-top: $menupadding !important;
+    float: right !important; 
+    @media only screen and (max-width: 900px) {
+        float: none !important; 
+        text-align: center !important; 
+    }
+}
+
+.menurow {
+    margin-bottom: 0px;
+    margin-right: 0px !important; 
+    margin-left: 0px  !important;
+    bottom: 0px !important; 
+
+    .tabs {
+        text-align: right !important;
+    }
+}
+
+.uppermenu {
+    width: 100%; 
+    padding: 25 px;
+    text-align: right;
+
+    .btntransparent {
+        margin: auto;
+        font-size: 1.2em !important;
+        &:focus {
+            background-color: $red !important;
+            color: white !important; 
+        }
+    }
+
+    .btn {
+        font-size: 1.2em !important;
+    }
+}
+
+.steplogo {
+    max-width:100%;
+    max-height:100%;
+    padding: $menupadding;
+    &:hover {
+        cursor: url('../img/cursor22.png'), auto !important;
+        // box-shadow: 2px 2px 2px #aaa;
+         -webkit-filter: drop-shadow(4px 4px 4px #aaa);
+        // filter: url(#drop-shadow);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    }
+}
+
+.blackbar {
+    background: $black;
+    height: 4px;
+    width: 100%;
+}
+
+.fbar1 {
+    background: $black;
+    padding: 0px;
+    align-items: center !important;
+    text-align: left !important;
+    p {
+        font-size: 0.8em;
+    }
+    // a {
+    //     text-align: center !important;
+    //     font-size: 1.2em !important;
+    //     margin: 0 auto;
+    // }
+}
+
+.fbar2 {
+    font-family: $font;
+    background: black !important;
+    color: white; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fbtext {
+    color: white;
+    font-family: $font;
+    max-width: $boxwidth !important;
+    margin: 0 auto !important;
+
+    h5 {
+        font-weight: bolder;
+    }
+
+    ul {
+        text-align: right;
+        text-shadow: 1px 1px 1px #aaa;
+        font-size: 1em !important;
+        li {
+            &:hover {
+                cursor: url('../img/cursor22.png'), auto !important;
+                text-shadow: none;
+            }
+        }
+        @media only screen and (max-width: 900px) {
+            text-align: center !important;
+            margin: 0 auto !important;
+        }
+    }
+}
+
+.links {
+    margin-left: none !important ;
+}
+
+#nieuwsbrief {
+    max-width: $boxwidth - 1/4 * $boxwidth !important; 
+    font-family: $font;
+    h4 {
+        font-family: $font;
+        margin: 8px 0; 
+        font-weight: bolder; 
+    }
+    p {
+        font-size: 1.2em; 
+    }
+
+    a {
+        color: $red ;
+        .disabled {
+            color: $grey !important; 
+        }
+    }
+
+    .modal {
+        max-height: 400px;
+    }
+}
+
+#email {
+    border-bottom: $red;
+}
