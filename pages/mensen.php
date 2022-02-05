@@ -7,14 +7,15 @@
 </div>
 
 <div class="row hometext mensentitle" id="bestuur">
-    <h2>Bestuur 2020/2021</h2>
+    <h2>Bestuur 2021/2022</h2>
 </div>
 
-<div class="row hometext">
+<div class="row hometext"
+>
 <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/nona.jpg">
+                <img class="activator"  style="right: 35%;" src="../img/mensen/nona.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Nona Kranen</span>
@@ -23,7 +24,7 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Nona Kranen<i class="material-icons right">close</i></span>
                 <p>
-                    Nona Kranen (1998) komt uit Amsterdam en is de secretaris van STEP. Op haar vijfde begon ze met vioollessen aan de muziekschool van Amsterdam en vanaf haar tiende speelde ze met veel plezier mee in onder andere het wereldmuziekensemble Roman Oro, het Noordhollands Jeugdorkest, het Nederlands Studenten Orkest en het CREA-orkest. Van STEP is ze in het verleden de aanvoerder van de tweede violen geweest. Naast muziek houdt zij zich bezig met het maken en ontwerpen van kleding en kostuums, waarvoor ze ook anderhalf jaar in Antwerpen aan de kunstacademie heeft gestudeerd.                 
+                    Nona Kranen (1998) komt uit Amsterdam en is de voorzitter van STEP. Op haar vijfde begon ze met vioollessen aan de muziekschool van Amsterdam en vanaf haar tiende speelde ze met veel plezier mee in onder andere het wereldmuziekensemble Roman Oro, het Noordhollands Jeugdorkest, het Nederlands Studenten Orkest en het CREA-orkest. Van STEP is ze in het verleden de aanvoerder van de tweede violen geweest. Naast muziek houdt zij zich bezig met het maken en ontwerpen van kleding en kostuums, waarvoor ze ook anderhalf jaar in Antwerpen aan de kunstacademie heeft gestudeerd.                 
                 </p>
                 <div class="card-action">
                     <a href="mailto:voorzitter@ensembleproject.nl">Email</a>
@@ -37,7 +38,7 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/bjarne.jpg">
+                <img class="activator" style="right: 35%;"  src="../img/mensen/bjarne.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Bjarne Bouwer</span>
@@ -57,7 +58,7 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="">
+                <img class="activator" style="right: 35%;" src="../img/mensen/lotte.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Lotte van de Merwe</span>
@@ -79,7 +80,7 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/tessa.jpg">
+                <img class="activator"  style="right: 35%;" src="../img/mensen/tessa.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Tessa Heeroma</span>
@@ -88,7 +89,7 @@
             <div class="card-reveal cardtextact">
                 <span class="card-title grey-text text-darken-4">Tessa Heeroma<i class="material-icons right">close</i></span>
                 <p>
-                   Tessa Heeroma (1996) speelt al vanaf jonge leeftijd viool en altviool in verschillende amateurorkesten en -ensembles, waaronder het Haarlems Barok Jeugdorkest, het VU-Orkest en het strijkkwartet Puutavaaran Harjoittajat. Recentelijk is ze ook begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Daarnaast studeerde ze Klassieke Talen en Arabisch aan de UvA. Tessa is penningmeester van STEP.
+                   Tessa Heeroma (1996) speelt al vanaf jonge leeftijd viool en altviool in verschillende amateurorkesten en -ensembles, waaronder het Haarlems Barok Jeugdorkest, het VU-Orkest en het strijkkwartet Puutavaaran Harjoittajat. Recentelijk is ze ook begonnen te experimenteren met het spelen van de ud, de Midden-Oosterse luit. Daarnaast studeerde ze Klassieke Talen en Arabisch aan de UvA. Tessa is PR-chef van STEP.
                 </p>
                 <div class="card-action">
                     <a href="mailto:promotie@ensembleproject.nl">Email</a>
@@ -101,7 +102,7 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/freya.jpg">
+                <img class="activator"  style="right: 35%;" src="../img/mensen/freya.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Freya Reynaert</span>
@@ -125,7 +126,7 @@
     <div class="col m4 s12">
         <div class="card">
             <div class="cardimage waves-effect waves-block waves-light">
-                <img class="activator" src="../img/mensen/zita.jpg">
+                <img class="activator"  style="right: 35%;" src="../img/mensen/zita.jpg">
             </div>
             <div class="card-content cardfunctie">
                 <span class="card-title activator">Zita Verbeeck</span>
