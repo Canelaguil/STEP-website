@@ -1,10 +1,11 @@
 .menulink {
     
+    text-overflow: clip !important;
     a {
         @include titlelink();
         color: $black !important;
         font-size: 2em !important;
-        padding: 0 12px !important; 
+        padding: 0 8px !important; 
         &:hover {
             cursor: $cursorurl2, auto !important;
             text-shadow: 2px 2px 2px #aaa;
@@ -16,11 +17,11 @@
         
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 916px) {
         text-align: center !important;
         a {
             font-size: 1.2em !important;
-            text-overflow: inherit !important;
+            text-overflow: clip !important;
         }
     }
 }

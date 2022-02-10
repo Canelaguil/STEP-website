@@ -12,4 +12,5 @@ urlpatterns = [
     path('doneer', views.donate, name='donate'),
     path('documenten', views.docs, name='docs'),
     path('media', views.media, name='media'),
+    path('mailinglijst', views.email_signup, name='mailinglijst'),
 ]

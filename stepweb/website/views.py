@@ -1,7 +1,7 @@
 # from socket import AF_AAL5
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Boardmember, Creative, CommitteeMember, Home, Meedoentekst, Project, Media
-from .forms import AanmeldFormulier
+from .forms import AanmeldFormulier, EmailFormulier
 
 def people(request): 
     bestuur = Boardmember.objects.order_by('order')
@@ -70,3 +70,16 @@ def index(request):
         'h' : h
     }
     return render(request, 'website/home.html', cntxt)
+
+def email_signup(request):
+    if request.method == 'POST':
+        form = EmailFormulier(request.POST)
+        if form.is_valid():
+            form.save()
+            return render(request, 'website/succes.html', {})
+    
+    form = EmailFormulier()
+    context = {
+        'emailform': form
+    }
+    return render(request, 'website/mailinglist.html', context)

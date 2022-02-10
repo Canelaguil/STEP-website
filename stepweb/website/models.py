@@ -43,7 +43,7 @@ class CommitteeMember(models.Model):
 
 class Home(models.Model):
     heading = models.TextField(primary_key=True)
-    subheading = models.TextField()
+    subheading = models.TextField(blank=True)
     btntext = models.TextField()
     btnurl = models.TextField()
 

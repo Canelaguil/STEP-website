@@ -225,11 +225,15 @@ body, html, main {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.menulink {
+  text-overflow: clip !important;
+}
+
 .menulink a {
   font-family: "Montserrat Subrayada", sans-serif;
   color: #222021 !important;
   font-size: 2em !important;
-  padding: 0 12px !important;
+  padding: 0 8px !important;
 }
 
 .menulink a:hover {
@@ -241,13 +245,13 @@ body, html, main {
   text-shadow: 2px 2px 2px #990000ff;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 916px) {
   .menulink {
     text-align: center !important;
   }
   .menulink a {
     font-size: 1.2em !important;
-    text-overflow: inherit !important;
+    text-overflow: clip !important;
   }
 }
 

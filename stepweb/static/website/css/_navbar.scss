@@ -4,7 +4,7 @@
         @include titlelink();
         color: $black !important;
         font-size: 2em !important;
-        padding: 6px; 
+        padding: 0 12px !important; 
         &:hover {
             cursor: $cursorurl2, auto !important;
             text-shadow: 2px 2px 2px #aaa;
