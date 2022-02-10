@@ -11,4 +11,5 @@ urlpatterns = [
     path('aanmelden', views.form, name='form'),
     path('doneer', views.donate, name='donate'),
     path('documenten', views.docs, name='docs'),
+    path('media', views.media, name='media'),
 ]

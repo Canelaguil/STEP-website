@@ -150,6 +150,10 @@ h3 {
   word-break: break-all !important;
 }
 
+.projecthead {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 body, html, main {
   height: 100%;
 }
@@ -157,7 +161,7 @@ body, html, main {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("static/img/hero.jpg");
+  background-image: url("../img/hero.jpg");
   /* Set a specific height */
   height: 600px;
   width: 100%;
@@ -780,21 +784,21 @@ form label {
 
 html {
   min-height: 100% !important;
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 body {
   background: white;
   min-height: 100% !important;
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 img {
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 img:hover {
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 a:hover {
@@ -806,11 +810,11 @@ a .disbled {
 }
 
 span {
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 span:hover {
-  cursor: url("static/img/cursor23.png"), auto !important;
+  cursor: url("../img/cursor23.png"), auto !important;
 }
 
 .containedrow {

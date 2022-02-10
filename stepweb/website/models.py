@@ -22,9 +22,9 @@ class Boardmember(models.Model):
 class Creative(models.Model):
     function = models.TextField(primary_key=True)
     name = models.TextField()
-    description = models.TextField()
-    email = models.EmailField()
-    img = models.ImageField(storage=fpeople)
+    description = models.TextField(blank=True)
+    email = models.EmailField(blank=True)
+    img = models.ImageField(storage=fpeople, blank=True)
     order = models.IntegerField(blank=True, default=1)
     url1 = models.URLField(blank=True)
     label1 = models.TextField(blank=True)
@@ -84,3 +84,59 @@ class Project(models.Model):
 
     def __str__(self):
         return self.titel
+
+class Aanmeldingen(models.Model):
+    # created_at = models.DateTimeField(auto_now_add=True)
+    naam = models.CharField(max_length=20)
+    achternaam = models.CharField(max_length=30)
+    geboortejaar = models.IntegerField()
+    woonplaats = models.CharField(max_length=40)
+    voorkeursinstrument = models.CharField(
+        max_length=32, 
+        choices = [('viool1', 'Eerste viool'), ('viool2', 'Tweede viool'), ('alt', 'Altviool'), 
+        ('cello', 'Cello'), ('bas', 'Contrabas'), ('fluit', 'Dwarsfluit'), ('hobo', 'Hobo'), ('klarinet', 'Klarinet'),
+        ('fagot', 'Fagot'), ('trompet', 'Trompet'), ('hoorn', 'Hoorn'), ('trommels', 'Slagwerk'), ('piano', 'Piano')])
+    toelichting_instrument = models.TextField(blank=True)
+    speelduur = models.IntegerField()
+    orkesten = models.TextField()
+    aanwezigheid_repetities = models.BooleanField()
+    repetitie_toelichting = models.TextField(blank=True)
+    e_mail = models.EmailField()
+    telefoon = models.CharField(max_length=14)
+    gevonden = models.CharField(
+        max_length=32, 
+        choices = [('viavia', 'Via via'), ('socials', 'Via social media'), ('anderorkest', 'Via een ander orkest'), ('anders', 'Overige')]
+    )
+    studie_werk = models.TextField()
+    opmerkingen = models.TextField(blank=True)
+
+    def __str__(self):
+        return f"{self.naam} {self.achternaam}"
+
+class Media(models.Model):
+    label = models.TextField(primary_key=True)
+    url = models.URLField(blank=True)
+    iframe = models.TextField(blank=True)
+    video = models.BooleanField(default=False)
+
+    def ___str__(self):
+        return self.label
+
+class EmailListMember(models.Model):
+    email = models.EmailField()
+
+    def __str__(self):
+        return self.email
+    
+
+class Meedoentekst(models.Model): 
+    tekst1 = models.TextField()
+    knop1_tekst = models.CharField(max_length=50)
+    knop1_url = models.CharField(max_length=50)
+    knop2_tekst = models.CharField(max_length=50)
+    knop2_url = models.CharField(max_length=50)
+    tekst2_kop = models.CharField(max_length=50)
+    tekst2 = models.TextField()
+
+    def __str__(self) -> str:
+        return 'Meedoen'

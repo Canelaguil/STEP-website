@@ -9,26 +9,27 @@
 </div>
 <!-- https://script.google.com/macros/s/AKfycbzOpO3bJwBfW8YXBEtpVVnG9nZN5-RYRbT9zxHhi-CRWTfQ8S0U/exec -->
 <div class="row hometext formblok">
-    <form name='submit-to-google-sheet2' class="col s12">
+    <form name='' method='post' class="col s12">
+        {% csrf_token %}
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="first_name" id="first_name" type="text" class="validate" required>
-                <label for="first_name">Naam *</label>
+                <input name="{{ form.naam.html_name }}" id="{{ form.naam.id_for_label }}" type="text" class="validate" required>
+                <label for="{{ form.naam.id_for_label }}">Naam *</label>
             </div>
             <div class="input-field col s12 m6">
-                <input name="last_name" id="last_name" type="text" class="validate" required>
-                <label for="last_name">Achternaam *</label>
+                <input name="{{ form.achternaam.html_name }}" id="{{ form.achternaam.id_for_label }}" type="text" class="validate" required>
+                <label for="{{ form.achternaam.id_for_label }}">Achternaam *</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="birth_year" id="year" type="number" required>
-                <label for="year">Geboortejaar *</label>
+                <input name="{{ form.geboortejaar.html_name }}" id="{{ form.geboortejaar.id_for_label }}" type="number" required>
+                <label for="{{ form.geboortejaar.id_for_label }}">Geboortejaar *</label>
             </div>
 
             <div class="input-field col s12 m6">
-                <input name="city" id="city" type="text" required>
-                <label for="city">Woonplaats *</label>
+                <input name="{{ form.woonplaats.html_name }}" id="{{ form.woonplaats.id_for_label }}" type="text" required>
+                <label for="{{ form.woonplaats.id_for_label }}">Woonplaats *</label>
             </div>
         </div>
 
@@ -37,61 +38,41 @@
         </div>
         <div class="row">
             <div class="col s12 m6 input-field">
-                <select name="instrument" required>
-                <option value="" selected disabled hidden>Voorkeursinstrument *</option>
-                <optgroup label="Strijkinstrumenten">
-                    <option value="Eerste viool">Eerste viool</option>
-                    <option value="Tweede viool">Tweede viool</option>
-                    <option value="Altviool">Altviool</option>
-                    <option value="Cello">Cello</option>
-                    <option value="Contrabas">Contrabas</option>
-                </optgroup>
-                <optgroup label="Blaasinstrumenten">
-                    <option value="Dwarsfluit">Dwarsfluit</option>
-                    <option value="Hobo">Hobo</option>
-                    <option value="Klarinet">Klarinet</option>
-                    <option value="Fagot">Fagot</option>
-                    <option value="Trompet">Trompet</option>
-                    <option value="Hoorn">Hoorn</option>
-                </optgroup>
-                <optgroup label="Slagwerk en anderen">
-                    <option value="Slagwerk">Slagwerk</option>
-                    <option value="Piano">Piano</option>
-                </optgroup>
-                </select>
+                {{ form.voorkeursinstrument }}
+                <label for="{{ form.voorkeursinstrument.id_for_label }}">Voorkeursinstrument *</label>
             </div>
             <div class="input-field col s12 m6">
-                <textarea id="instrumenten" class="materialize-textarea"></textarea>
-                <label class="active" for="instrumenten">Speel je nog andere instrumenten daarnaast? Zo ja, welke?</label>
+                <textarea name="{{ form.toelichting_instrument.html_name }}" id="{{ form.toelichting_instrument.id_for_label }}" class="materialize-textarea"></textarea>
+                <label class="active" for="{{ form.toelichting_instrument.id_for_label }}">Speel je nog andere instrumenten daarnaast? Zo ja, welke?</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="speelvaring" id="ervaring" type="number" required>
-                <label for="ervaring">Hoe lang speel je al? *</label>
+                <input name="{{ form.speelduur.html_name }}" id="{{ form.speelduur.id_for_label }}" type="number" required>
+                <label for="{{ form.speelduur.id_for_label }}">Hoeveel jaar speel je al? *</label>
             </div>
 
             <div class="input-field col s12 m6">
-                <input name="orkesten" id="orkesten" type="text" required>
-                <label for="orkesten">Orkesten *</label>
+                <input name="{{ form.orkesten.html_name }}" id="{{ form.orkesten.id_for_label }}" type="text" required>
+                <label for="{{ form.orkesten.id_for_label }}">Orkesten *</label>
             </div>
         </div>
 
         <div class="row">
             <h3>Repetities</h3>
-            <h5 class="privacytekst">Klik <a target="__blank" href="{% settings_value "REPETITIE_DATA" %}">hier</a> voor het repetitieschema.</h5>
+            <!-- <h5 class="privacytekst">Klik <a target="__blank" href="{% settings_value "REPETITIE_DATA" %}">hier</a> voor het repetitieschema.</h5> -->
         </div>
         <div class="row">
             <div class="col s12 m6 repetitietext">
-                <select name="repetities" required>
+                <select name="{{ form.aanwezigheid_repetities.html_name }}" required>
                     <option value="" selected disabled hidden>Kun je naar alle repetities komen? *</option>
-                    <option value="Ja">Ja</option>
-                    <option value="Nee">Nee</option>           
+                    <option value="{{ True }}">Ja</option>
+                    <option value="{{ False }}">Nee</option>           
                 </select>
             </div>
             <div class="input-field col s12 m6 toelichtingcontainer">
-                <textarea name="toelichting" id="toelichting" class="materialize-textarea toelichtingbox"></textarea>
-                <label for="toelichting">Toelichting</label>
+                <textarea name="{{ form.repetitie_toelichting.html_name }}" id="{{ form.repetitie_toelichting.id_for_label }}" class="materialize-textarea toelichtingbox"></textarea>
+                <label for="{{ form.repetitie_toelichting.id_for_label }}">Toelichting</label>
             </div>
         </div>
 
@@ -101,12 +82,12 @@
 
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="email" id="mail" type="email" required>
-                <label for="mail">Email *</label>
+                <input name="{{ form.e_mail.html_name }}" id="{{ form.e_mail.id_for_label }}" type="email" required>
+                <label for="{{ form.e_mail.id_for_label }}">Email *</label>
             </div>
             <div class="input-field col s12 m6">
-                <input name="telefoon" id="telefoon" type="tel" class="validate" required>
-                <label for="telefoon">Telefoonnummer *</label>
+                <input name="{{ form.telefoon.html_name }}" id="{{ form.telefoon.id_for_label }}" type="tel" class="validate" required>
+                <label for="{{ form.telefoon.id_for_label }}">Telefoonnummer *</label>
             </div>
         </div>
 
@@ -116,24 +97,19 @@
 
         <div class="row">
             <div class="col s12 m6 input-field">
-                <select name="gevonden" id="found" required>
-                    <option value="" selected disabled hidden>Hoe heb je ons gevonden? *</option>
-                    <option value="Via via">Via via</option>
-                    <option value="Via social media">Via social media</option>
-                    <option value="Via een ander orkest">Via een ander orkest</option>
-                    <option value="Overige">Overige</option>              
-                </select>
+                {{ form.gevonden }}
+                <label for="{{ form.gevonden.id_for_label }}">Hoe heb je ons gevonden? *</label>
             </div>
             <div class="input-field col s12 m6">
-                <input name="occupation" id="studie" type="text" required>
-                <label for="studie">Studie / Werk *</label>
+                <input name="{{ form.studie_werk.html_name }}" id="{{ form.studie_werk.id_for_label }}" type="text" required>
+                <label for="{{ form.studie_werk.id_for_label }}">Studie / Werk *</label>
             </div>
         </div>
 
         <div class="row">
             <div class="input-field col s12 m12">
-                <textarea name="opmerkingen" id="opmerkingen" class="materialize-textarea toelichtingbox"></textarea>
-                <label for="opmerkingen">Opmerkingen, bijv.: Ben je geïnteresseerd in een aanvoerderspositie? Zou je nog op een andere manier betrokken willen zijn bij STEP?</label>
+                <textarea name="{{ form.opmerkingen.html_name }}" id="{{ form.opmerkingen.id_for_label }}" class="materialize-textarea toelichtingbox"></textarea>
+                <label for="{{ form.opmerkingen.id_for_label }}">Opmerkingen, bijv.: Ben je geïnteresseerd in een aanvoerderspositie? Zou je nog op een andere manier betrokken willen zijn bij STEP?</label>
             </div>
         </div>
         
@@ -144,28 +120,12 @@
                 </label>
             </p>
         </div>
-        <button id="formsubmit" class="btn btnblack" type='submit'>Aanmelden</button>
+        <button id="formsubmit" class="btn btnblack" value='Submit' type='submit'>Aanmelden</button>
     </form>
 
     <script>
-        const scriptU = 'https://script.google.com/macros/s/AKfycbxR4uuM0TCkz3TGBupb-wFhIJD-IbwmjvSpATvl/exec'
-        const form = document.forms['submit-to-google-sheet2']
 
-        function finish_form(text, response) {
-            document.getElementById("formsubmit").innerHTML = "Aanmelden"
-            alert(text, response)
-        }
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            document.getElementById("formsubmit").innerHTML = "Een moment..."
-            fetch(scriptU, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => finish_form('Het formulier is succesvol verzonden! We streven ernaar je binnen een of uiterlijk twee weken een email te sturen vanuit het bestuur.', response))
-                .catch(error => finish_form('Er is iets misgegaan, sorry! Zou je je browser en besturingssysteem kunnen sturen naar promotie@ensembleproject.nl? Een andere browser gebruiken zou in ieder geval al nu meteen kunnen helpen. Sorry! - xxx IT', error.message))
-        })
     </script>
+
     
 {% endblock %}

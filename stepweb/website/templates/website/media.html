@@ -1,0 +1,33 @@
+{% extends "website/index.html" %} 
+{% load website.website_extras %}
+
+{% block content %}
+
+<div class="row hometext meedoenblock">
+    <h4>Links</h4>
+    <p class="textblack">
+        <ul class='docslist'>
+        {% if urls %}
+            {% for url in urls %}
+                <li><a target='__blank' href="{{ url.url }}">{{ url.label }}</a></li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+        
+    </p>
+</div>
+
+
+<div class="row hometext meedoenblock">
+    <h4>Video's</h4>
+    <p class="textblack center" style='align-items: center;'>
+        {% if videos %}
+            {% for v in videos %}
+                <!-- <iframe width="560" height="315" src="{{ v.url }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                {{ v.iframe | safe }}
+            {% endfor %}
+        {% endif %}
+    </p>
+</div>
+
+{% endblock %}

@@ -1,7 +1,8 @@
+# from socket import AF_AAL5
 from django.shortcuts import render
-from .models import Boardmember, Creative, CommitteeMember, Home, Project
+from .models import Boardmember, Creative, CommitteeMember, Home, Meedoentekst, Project, Media
+from .forms import AanmeldFormulier
 
-# Create your views here.
 def people(request): 
     bestuur = Boardmember.objects.order_by('order')
     creatives = Creative.objects.order_by('order')
@@ -23,13 +24,34 @@ def music(request):
     return render(request, 'website/music.html', cntxt)
 
 def join(request):
-    cntxt = {}
+    h = Meedoentekst.objects.first()
+    cntxt = {
+        'h' : h
+    }
     return render(request, 'website/join.html', cntxt)
 
 def form(request):
-    cntxt = {}
+    if request.method == 'POST': 
+        form = AanmeldFormulier(request.POST)
+        form.save()
+        return render(request, 'website/succes.html')
+        # else:
+        #     print('form not valid')
+        #     return render(request, 'website/construction.html')
+    form = AanmeldFormulier()
+    print(form['voorkeursinstrument'][1])
+    cntxt = {'form' : form}
+    print(form['voorkeursinstrument'][1])
     return render(request, 'website/form.html', cntxt)
 
+def media(request): 
+    videos = Media.objects.filter(video=True)
+    urls = Media.objects.filter(video=False)
+    cntxt = {
+        'urls' : urls, 
+        'videos' : videos
+    }
+    return render(request, 'website/media.html', cntxt)
 def donate(request):
     cntxt = {}
     return render(request, 'website/donate.html', cntxt)

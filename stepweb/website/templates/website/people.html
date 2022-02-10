@@ -5,7 +5,7 @@
 <div class="row z-depth-3 containedrow blackbox mensenlinks">
     <ul class="blackbox">
         <li><a class="textwhite" href="#bestuur">Bestuur</a></li>
-        <li><a class="textwhite" href="#dircomp">Dirigent & Huiscomponist</a></li>
+        <li><a class="textwhite" href="#dircomp">Samenwerkingen</a></li>
         <li><a class="textwhite" href="#aanbeveling">Comité van aanbeveling</a></li>
     </ul>
 </div>
@@ -27,16 +27,20 @@
 </div>
 
 <div class="row hometext mensentitle" id="dircomp">
-    <h2>Dirigent & Huiscomponist</h2>
+    <h2>Samenwerkingen</h2>
 </div>
 
 <div class="row hometext">
 {% if creatives %}
+    <ul class="aanbevelinglijst">
     {% for bm in creatives %}
-        <div class="col s12 m6">
-        {% include 'website/creative.html' %}
-        </div>
+        <li>{{bm.name}}<br>
+            <em class="ondertitel">
+            {{bm.function}}
+            </em>
+        </li>
     {% endfor %}
+    </ul>
 {% endif %}
 </div>
 
