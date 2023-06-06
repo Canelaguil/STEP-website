@@ -1,6 +1,5 @@
 from django.db import models
 from django.core.files.storage import FileSystemStorage
-# from pillow import Image
 
 fpeople = FileSystemStorage(location='adminuploads')
 
@@ -20,8 +19,8 @@ class Boardmember(models.Model):
         return self.name
 
 class Creative(models.Model):
-    function = models.TextField(primary_key=True)
-    name = models.TextField()
+    function = models.TextField()
+    name = models.TextField(primary_key=True)
     description = models.TextField(blank=True)
     email = models.EmailField(blank=True)
     img = models.ImageField(storage=fpeople, blank=True)
@@ -128,7 +127,6 @@ class EmailListMember(models.Model):
     def __str__(self):
         return self.email
     
-
 class Meedoentekst(models.Model): 
     tekst1 = models.TextField()
     knop1_tekst = models.CharField(max_length=50)
